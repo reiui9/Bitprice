@@ -6,10 +6,10 @@ result-view {
   render {
     if ("size(this) > 1") {
       list-of (this) {
-        where-each (btcRate) {
+        where-each (item) {
           layout-macro (BTCRate-summary-macro) {
             param (btcRate) {
-              expression (btcRate)
+              expression (item)
             }
           }
         }
