@@ -29,5 +29,9 @@ endpoints {
     action-endpoint (CreateShoe) {
       local-endpoint (CreateShoe.js)
     }
+
+    action-endpoint (GetBTCRates) {
+      local-endpoint (GetBTCRates.js)
+    }
   }
 }

@@ -1,7 +1,7 @@
-layout-macro-def(shoe-summary-macro) {
+layout-macro-def(BTCRate-summary-macro) {
   params {
-    param (shoe) {
-      type (Shoe)
+    param (btcRate) {
+      type (BTCRate)
       min (Required)
       max (One)
     }
@@ -14,7 +14,7 @@ layout-macro-def(shoe-summary-macro) {
           slot1 {
             text {
               value {
-                template ("#{value (shoe.name)}")
+                template ("#{value (btcRate.currency)}")
               }
             }
           }
@@ -23,7 +23,7 @@ layout-macro-def(shoe-summary-macro) {
           slot2 {
             content {
               primary {
-                template ("#{value (shoe.price)}")
+                template ("#{value (btcRate.last)}")
               }
             }
           }

@@ -1,0 +1,50 @@
+layout-macro-def(BTCRate-details-macro) {
+  params {
+    param (btcRate) {
+      type (BTCRate)
+      min (Required)
+      max (One)
+    }
+  }
+
+  content {
+    section {
+      content {
+        title-area {
+          slot1 {
+            text {
+              value {
+                template ("#{value (btcRate.currency)}")
+              }
+            }
+          }
+        }
+        paragraph {
+          value {
+            template ("#{value (btcRate.quarterBefore)}")
+          }
+        }
+        paragraph {
+          value {
+            template ("#{value (btcRate.last)}")
+          }
+        }
+        paragraph {
+          value {
+            template ("#{value (btcRate.buy)}")
+          }
+        }
+        paragraph {
+          value {
+            template ("#{value (btcRate.sell)}")
+          }
+        }
+        paragraph {
+          value {
+            template ("#{value (btcRate.symbol)}")
+          }
+        }
+      }
+    }
+  }
+}
