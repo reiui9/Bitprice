@@ -25,4 +25,12 @@ structure (BTCRate) {
     type (Symbol)
     min (Required)
   }
+  property (image) {
+    type (Image)
+    min (Required)
+  }
+  property (chart) {
+    type (Chart)
+    min (Required)
+  }
 }

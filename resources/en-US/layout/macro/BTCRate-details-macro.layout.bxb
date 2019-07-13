@@ -10,38 +10,75 @@ layout-macro-def(BTCRate-details-macro) {
   content {
     section {
       content {
-        title-area {
-          slot1 {
-            text {
-              value {
-                template ("#{value (btcRate.currency)}")
+        image-card {
+          aspect-ratio (4:3)
+          title-area {
+            slot1 {
+              text {
+                value {
+                  template ("#{value (btcRate.currency)}")
+                }
               }
             }
           }
+          image-url ("#{value (btcRate.chart.url)}")
         }
         paragraph {
           value {
-            template ("#{value (btcRate.quarterBefore)}")
+            template ("quarterBefore : #{value (btcRate.quarterBefore)}")
           }
         }
         paragraph {
           value {
-            template ("#{value (btcRate.last)}")
+            template ("last : #{value (btcRate.last)}")
           }
         }
         paragraph {
           value {
-            template ("#{value (btcRate.buy)}")
+            template ("buy : #{value (btcRate.buy)}")
           }
         }
         paragraph {
           value {
-            template ("#{value (btcRate.sell)}")
+            template ("sell : #{value (btcRate.sell)}")
           }
         }
         paragraph {
           value {
-            template ("#{value (btcRate.symbol)}")
+            template ("symbol : #{value (btcRate.symbol)}")
+          }
+        }
+        
+        split-input-cell {
+          left {
+              input-cell {
+                  label {
+                      template ("Coin Type")
+                  }
+                  value {
+                      template ("BTC") // Standard
+                  }
+                  on-click {
+                      intent {
+                      goal: GetBTCRates
+                      }
+                  }
+              }
+          }
+          right {
+              input-cell {
+              label {
+                  template ("Currency Type")
+              }
+              value {
+                  template ("#{value (btcRate.currency)}")
+              }
+              on-click {
+                  intent {
+                  goal: GetBTCRates
+                  }
+              }
+              }
           }
         }
       }

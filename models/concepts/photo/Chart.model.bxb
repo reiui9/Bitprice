@@ -1,4 +1,4 @@
-structure (Image) {
+structure (Chart) {
   property (url) {
     type (Url)
     min (Required) max (One)
