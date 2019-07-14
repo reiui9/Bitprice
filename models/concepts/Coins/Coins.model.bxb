@@ -1,0 +1,10 @@
+structure (Coins) {
+  property (coin) {
+    type (Coin)
+    min (Required) max (One)
+  }
+  property (exchange) {
+    type (Exchange)
+    min (Required) max (One)
+  }
+}

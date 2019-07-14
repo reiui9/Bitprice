@@ -1,0 +1,14 @@
+action (GetCoins) {
+  description (Get coin and exchange from user)
+  collect { 
+    input (coin) {
+      type (Coin)
+      min (Required) max (One)
+    }
+    input (exchange) {
+      type (Exchange)
+      min (Optional) max (One)
+    }
+  }
+  output (Coins)
+}

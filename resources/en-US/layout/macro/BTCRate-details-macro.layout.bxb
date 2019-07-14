@@ -68,7 +68,7 @@ layout-macro-def(BTCRate-details-macro) {
           right {
               input-cell {
               label {
-                  template ("Currency Type")
+                  template ("Exchange Type")
               }
               value {
                   template ("#{value (btcRate.currency)}")

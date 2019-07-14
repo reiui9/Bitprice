@@ -1,0 +1,14 @@
+ action (GetBTCRate) {
+  collect {
+    input (coins) {
+      type (Coins)
+      min (Required) max (One)
+      default-init {
+        intent{
+          goal: GetCoins
+        }
+      }
+    }
+  }
+  output (BTCRate)
+}
