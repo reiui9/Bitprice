@@ -1,0 +1,10 @@
+structure (Coininfo) {
+  property (coin) {
+    type (Coin)
+    min (Required)
+  }
+  property (image) {
+    type (Image)
+    min (Optional)
+  }
+}

@@ -6,7 +6,7 @@ dialog (Result) {
   if ("size(this) > 1") {
     template ("Here is list of Bitcoin price with USD")
   } else-if ("size(this) == 1") {
-    template ("Here is Bitcoin price with #{value (this.currency)}")
+    template ("Here is #{value (this.coins.coin)} with #{value (this.coins.exchange)}")
   }
 
 }

@@ -1,0 +1,10 @@
+structure (Exchangeinfo) {
+  property (exchange) {
+    type (Exchange)
+    min (Required)
+  }
+  property (image) {
+    type (Image)
+    min (Optional)
+  }
+}

@@ -1,5 +1,5 @@
 train (t-eb787j3t612z7vqsm3nbmz2xh) {
-  utterance ([g:GetBTCRates] Get BTC rates)
-  plan (Y2BiEEmtSMwtyEnVyygpKdBzCnEOSixJZZBAEXVPLYFKFDMwAiEDFANJAA==)
-  last-modified (1562390906353)
+  utterance ([g:BTCRate,r:GetBTCRates,r:GetCoin] Get BTC rates)
+  plan (Y2BlEEmtSMwtyEnVyygpKdBzCnEOSixJZRBFEXXOz8zLzEvLZ5BAEXZPLYGqL2YQwtBQjGY0UDVImIGZgQmIWRgYgDQjEDKAMTOYDxQFAA==)
+  last-modified (1563610591000)
 }

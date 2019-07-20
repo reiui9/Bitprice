@@ -1,5 +1,16 @@
 action (GetBTCRates) {
   description (Demonstrate a simple GET with the http library.)
   type (Search)
+  collect {
+    input (coins) {
+      type (Coins)
+      min (Required) max (One)
+      default-init {
+        intent{
+          goal: GetCoins
+        }
+      }
+    }
+  }
   output (BTCRate)
 }

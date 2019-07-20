@@ -33,4 +33,8 @@ structure (BTCRate) {
     type (Chart)
     min (Required)
   }
+  property (coins) {
+    type (Coins)
+    min (Required)
+  }
 }

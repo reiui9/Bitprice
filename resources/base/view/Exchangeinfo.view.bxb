@@ -1,0 +1,19 @@
+input-view {
+ match {
+    Exchangeinfo (this)
+  }
+
+  message (Which exchange?)
+
+  render {
+    selection-of (this) {
+      where-each (item) {
+        layout-macro (Exchangeinfo-summary-macro) {
+          param (exchangeinfo) {
+            expression (item)
+          }
+        }
+      }
+    }
+  }
+}

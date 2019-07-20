@@ -1,0 +1,5 @@
+train (t-s6kkt4n8wffgj5fy1sfznf6fu) {
+  utterance ("[g:BTCRate,r:GetBTCRates] Get (BTC)[v:Coin] rate")
+  plan (Y2BjEEmtSMwtyEnVyygpKdBzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGAGYhZQDwA)
+  last-modified (1563610701932)
+}

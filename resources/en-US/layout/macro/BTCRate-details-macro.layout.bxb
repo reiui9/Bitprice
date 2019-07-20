@@ -16,7 +16,7 @@ layout-macro-def(BTCRate-details-macro) {
             slot1 {
               text {
                 value {
-                  template ("#{value (btcRate.currency)}")
+                  template ("#{value (btcRate.coins.coin)}")
                 }
               }
             }
@@ -56,28 +56,34 @@ layout-macro-def(BTCRate-details-macro) {
                       template ("Coin Type")
                   }
                   value {
-                      template ("BTC") // Standard
+                      template ("#{value (btcRate.coins.coin)}") // Standard
                   }
                   on-click {
                       intent {
-                      goal: GetBTCRates
+                        goal: BTCRate
+                        value: Exchangeinfo {
+                          exchange: $expr(btcRate.coins.exchange)
+                        }
                       }
                   }
               }
           }
           right {
               input-cell {
-              label {
-                  template ("Exchange Type")
-              }
-              value {
-                  template ("#{value (btcRate.currency)}")
-              }
-              on-click {
-                  intent {
-                  goal: GetBTCRates
-                  }
-              }
+                label {
+                    template ("Exchange Type")
+                }
+                value {
+                    template ("#{value (btcRate.coins.exchange)}")
+                }
+                on-click {
+                    intent {
+                      goal: BTCRate
+                      value: Coininfo {
+                        coin: $expr(btcRate.coins.coin)
+                      }
+                    }
+                }
               }
           }
         }

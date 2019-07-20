@@ -1,0 +1,5 @@
+action (GetExchange) {
+  description (give selection about exchange to user)
+  type (Search)
+  output (Exchangeinfo)
+}

@@ -1,0 +1,5 @@
+action (GetCoin) {
+  description (give selection about coin to user)
+  type (Search)
+  output (Coininfo)
+}

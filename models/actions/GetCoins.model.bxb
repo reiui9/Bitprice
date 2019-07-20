@@ -1,13 +1,24 @@
 action (GetCoins) {
   description (Get coin and exchange from user)
+  type (Search)
   collect { 
     input (coin) {
       type (Coin)
       min (Required) max (One)
+      default-init {
+        intent{
+          goal: GetCoin
+        }
+      }
     }
     input (exchange) {
       type (Exchange)
-      min (Optional) max (One)
+      min (Required) max (One)
+      default-init {
+        intent{
+          goal: GetExchange
+        }
+      }
     }
   }
   output (Coins)

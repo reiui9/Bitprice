@@ -1,0 +1,19 @@
+input-view {
+ match {
+    Coininfo (this)
+  }
+
+  message (Which coin?)
+
+  render {
+    selection-of (this) {
+      where-each (item) {
+        layout-macro (Coininfo-summary-macro) {
+          param (coininfo) {
+            expression (item)
+          }
+        }
+      }
+    }
+  }
+}

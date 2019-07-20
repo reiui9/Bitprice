@@ -3,12 +3,12 @@ endpoints {
   action-endpoints {
     action-endpoint (FindShoe) {
       accepted-inputs ()
-      local-endpoint (FindShoe.js)
+      local-endpoint (trash/FindShoe.js)
     }
     
     action-endpoint (FindShoeFiltering) {
       accepted-inputs (type)
-      local-endpoint (FindShoeFiltering.js)
+      local-endpoint (trash/FindShoeFiltering.js)
     }
     
     action-endpoint (FindShoeRemoteEndpoint) {
@@ -19,19 +19,31 @@ endpoints {
     }
     
     action-endpoint (FindShoeError) {
-      local-endpoint (FindShoeError.js)
+      local-endpoint (trash/FindShoeError.js)
     }
     
     action-endpoint (FindShoeReturnHeaders) {
-      local-endpoint (FindShoeReturnHeaders.js)
+      local-endpoint (trash/FindShoeReturnHeaders.js)
     }
     
     action-endpoint (CreateShoe) {
-      local-endpoint (CreateShoe.js)
+      local-endpoint (trash/CreateShoe.js)
     }
 
     action-endpoint (GetBTCRates) {
       local-endpoint (GetBTCRates.js)
+    }
+    
+    action-endpoint (GetCoins) {
+      local-endpoint (GetCoins.js)
+    }
+    
+    action-endpoint (GetCoin) {
+      local-endpoint (GetCoin.js)
+    }
+    
+    action-endpoint (GetExchange) {
+      local-endpoint (GetExchange.js)
     }
   }
 }
