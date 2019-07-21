@@ -3,36 +3,52 @@ var console = require('console')
 var config = require('config')
 
 module.exports.function = function getBTCRates (coins) {
-  console.log("GET /ticker without any parameter!)")
-  // Read the remote.url value from capsule.properties
-  var response = http.getUrl(config.get('blockchain.url') + '/ticker', { format: 'json' })
-
-  // image setting
-  var images = []
-  images[0] = config.get('image.bitcoin')
-  images[1] = config.get('image.ethereum')
-  images[2] = config.get('image.litecoin')
-
-  var result
-  var items = []
-  for (var currency in response) {
-    var item = response[currency]
-    // image random setting
-    item.image = {}
-    item.image.url = images[Math.floor(item['15m'] % 3)]
-    item.chart = {}
-    item.chart.url = config.get('chart.bitcoin')
-    item.coins = coins
-    item.quarterBefore = item['15m']
-    delete item['15m']
-    item.currency = currency
-    items.push(item)
+  var krakenMarketBaseUrl = config.get('cryptowatch.api.base.url') + '/markets/kraken'
+  var bithumbMarketBaseUrl = config.get('cryptowatch.api.base.url') + '/markets/bithumb'
+  var targetMarketBaseUrl = krakenMarketBaseUrl
+  coins.coin = coins.coin.toLowerCase()
+  coins.exchange = coins.exchange.toLowerCase()
+  if (coins.exchange == 'krw') {
+    targetMarketBaseUrl = bithumbMarketBaseUrl
   }
-  if (coins.coin === 'many'){
-    result = items
-  } else {
-    items[0].currency = coins.coin
-    result = items[0]
+  var result = {
+    price: {
+      last: 1,
+      high: 1,
+      low: 1,
+      change: {
+        percentage: 0,
+        absolute: 0
+      }
+    },
+    volume: 0,
+    chart: {
+      url: config.get('chart.bitcoin')
+    },
+    coins: coins
   }
+  /*
+      {
+      "result": {
+        "price":{
+          "last": 780.31,
+          "high": 790.34,
+          "low": 772.76,
+          "change": {
+            "percentage": 0.0014373838,
+            "absolute": 1.12
+          }
+        },
+        "volume": 5345.0415
+      }
+    }
+  */
+  // TODO: handle special case more elegant way
+  if (coins.exchange == coins.coin) {
+    return result
+  }
+  var response = http.getUrl(targetMarketBaseUrl + '/' + coins.coin + coins.exchange.toLowerCase() + '/summary', { format: 'json' })
+  result.price = response.result.price
+  result.volume = response.result.volume
   return result
 }

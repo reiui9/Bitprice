@@ -1,0 +1,10 @@
+structure (Change) {
+  property (percentage) {
+    type (Percentage)
+    min (Required)
+  }
+  property (absolute) {
+    type (Absolute)
+    min (Required)
+  }
+}

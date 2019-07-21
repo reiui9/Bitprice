@@ -3,10 +3,19 @@ var console = require('console')
 var config = require('config')
 
 module.exports.function = function getCoin () {
-  console.log("GET /ticker without any parameter!)")
-  // Read the remote.url value from capsule.properties
-  var response = http.getUrl(config.get('blockchain.url') + '/ticker', { format: 'json' })
-  
+  var krakenMarketBaseUrl = config.get('cryptowatch.api.base.url') + '/markets/kraken'
+  var coins = [
+    "btc",
+    "dash",
+    "eth",
+    "etc",
+    "ltc",
+    "xrp",
+    "bch",
+    "xmr",
+    "zec",
+    "eos"
+  ]
   // image setting
   var images = []
   images[0] = config.get('image.bitcoin')
@@ -14,16 +23,19 @@ module.exports.function = function getCoin () {
   images[2] = config.get('image.litecoin')
 
   var items = []
-  for (var currency in response) {
+
+  coins.forEach(coin => {
     var item = {
-      coin: currency,
+      coin: coin,
       image: {
         url: ""
-      }
+      },
+      price: 0.0
     }
-    // image random setting
-    item.image.url = images[Math.floor(response[currency]['15m'] % 3)]
+    var response = http.getUrl(krakenMarketBaseUrl + '/' + coin + 'usd/price', { format: 'json' })
+    item.price = response.result.price
+    item.image.url = images[Math.round(response.result.price) % 3]
     items.push(item)
-  }
+  })
   return items
 }

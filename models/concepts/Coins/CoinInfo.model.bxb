@@ -7,4 +7,8 @@ structure (Coininfo) {
     type (Image)
     min (Optional)
   }
+  property (price) {
+    type (CurrentPrice)
+    min (Optional)
+  }
 }

@@ -1,0 +1,18 @@
+structure (Price) {
+  property (last) {
+    type (Last)
+    min (Required)
+  }
+  property (high) {
+    type (High)
+    min (Required)
+  }
+  property (low) {
+    type (Low)
+    min (Required)
+  }
+  property (change) {
+    type (Change)
+    min (Required)
+  }
+}

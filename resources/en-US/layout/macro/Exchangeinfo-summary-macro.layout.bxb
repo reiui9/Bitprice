@@ -10,16 +10,10 @@ layout-macro-def(Exchangeinfo-summary-macro) {
   content {
     
     cell-card {
-      slot1 {
-          image {
-              url ("#{value (exchangeinfo.image.url)}")
-              shape (Square)
-          }
-      }
       slot2 {
           content {
               order (PrimarySecondary)
-              primary ("#{value (exchangeinfo.exchange)}")
+              primary ("#{value (exchangeinfo.symbol)} #{value (exchangeinfo.exchange)}")
           }
       }
     }

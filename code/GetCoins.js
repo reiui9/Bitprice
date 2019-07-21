@@ -3,14 +3,14 @@
 // return 'Coins' model
 
 module.exports.function = function getCoins (coin, exchange) {
-  if (coin === undefined) {
+  if (coin == undefined) {
     coin = 'many'
   }
-  if (exchange === undefined) {
+  if (exchange == undefined) {
     exchange = 'usd'
   }
   return {
-    coin: coin,
-    exchange: exchange
+    coin: coin.toLowerCase(),
+    exchange: exchange.toLowerCase()
   }
 }

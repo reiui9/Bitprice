@@ -1,32 +1,10 @@
 structure (BTCRate) {
-  property (currency) {
-    type (Currency)
+  property (price) {
+    type (Price)
     min (Required)
   }
-  property (quarterBefore) {
-    description(15 minutes delayed market price.)
-    type (QuarterBefore)
-    min (Required)
-  }
-  property (last) {
-    description(the most recent market price.)
-    type (Last)
-    min (Required)
-  }
-  property (buy) {
-    type (Buy)
-    min (Required)
-  }
-  property (sell) {
-    type (Sell)
-    min (Required)
-  }
-  property (symbol) {
-    type (Symbol)
-    min (Required)
-  }
-  property (image) {
-    type (Image)
+  property (volume) {
+    type (Volume)
     min (Required)
   }
   property (chart) {

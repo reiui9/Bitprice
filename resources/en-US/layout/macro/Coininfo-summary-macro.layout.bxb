@@ -20,6 +20,7 @@ layout-macro-def(Coininfo-summary-macro) {
           content {
               order (PrimarySecondary)
               primary ("#{value (coininfo.coin)}")
+              secondary ("#{value (coininfo.price)} usd")
           }
       }
     }
