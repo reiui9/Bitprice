@@ -2,9 +2,8 @@ dialog (Result) {
   match {
     BTCRate(this)
   }
-  // template ("I found #{spell (size(this))}:")
   if ("size(this) > 1") {
-    template ("Here is list of Bitcoin price with USD")
+    template ("Here is list of Bitcoin prices")
   } else-if ("size(this) == 1") {
     template ("Here is #{value (this.coins.coin)} with #{value (this.coins.exchange)}")
   }

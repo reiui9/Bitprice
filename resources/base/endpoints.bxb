@@ -1,35 +1,6 @@
 endpoints {
 
   action-endpoints {
-    action-endpoint (FindShoe) {
-      accepted-inputs ()
-      local-endpoint (trash/FindShoe.js)
-    }
-    
-    action-endpoint (FindShoeFiltering) {
-      accepted-inputs (type)
-      local-endpoint (trash/FindShoeFiltering.js)
-    }
-    
-    action-endpoint (FindShoeRemoteEndpoint) {
-      accepted-inputs ()
-      remote-endpoint ("{remote.url}/shoes") {
-        method (GET)
-      }
-    }
-    
-    action-endpoint (FindShoeError) {
-      local-endpoint (trash/FindShoeError.js)
-    }
-    
-    action-endpoint (FindShoeReturnHeaders) {
-      local-endpoint (trash/FindShoeReturnHeaders.js)
-    }
-    
-    action-endpoint (CreateShoe) {
-      local-endpoint (trash/CreateShoe.js)
-    }
-
     action-endpoint (GetBTCRates) {
       local-endpoint (GetBTCRates.js)
     }

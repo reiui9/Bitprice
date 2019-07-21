@@ -1,5 +1,0 @@
-action (CreateShoe) {
-  description (Demonstrate use of POST http library.)
-  type (Search)
-  output (Shoe)
-}
