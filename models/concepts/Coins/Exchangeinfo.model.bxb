@@ -3,8 +3,8 @@ structure (Exchangeinfo) {
     type (Exchange)
     min (Required)
   }
-  property (image) {
-    type (Image)
+  property (symbol) {
+    type (Symbol)
     min (Optional)
   }
 }

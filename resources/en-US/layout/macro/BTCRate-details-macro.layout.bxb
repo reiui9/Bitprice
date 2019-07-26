@@ -25,27 +25,32 @@ layout-macro-def(BTCRate-details-macro) {
         }
         paragraph {
           value {
-            template ("quarterBefore : #{value (btcRate.quarterBefore)}")
+            template ("last : #{value (btcRate.price.last)} #{value (btcRate.coins.exchange)}")
           }
         }
         paragraph {
           value {
-            template ("last : #{value (btcRate.last)}")
+            template ("high : #{value (btcRate.price.high)} #{value (btcRate.coins.exchange)}")
           }
         }
         paragraph {
           value {
-            template ("buy : #{value (btcRate.buy)}")
+            template ("low : #{value (btcRate.price.low)} #{value (btcRate.coins.exchange)}")
           }
         }
         paragraph {
           value {
-            template ("sell : #{value (btcRate.sell)}")
+            template ("change percentage : #{value (btcRate.price.change.percentage)}%")
           }
         }
         paragraph {
           value {
-            template ("symbol : #{value (btcRate.symbol)}")
+            template ("change absolute : #{value (btcRate.price.change.absolute)}")
+          }
+        }
+        paragraph {
+          value {
+            template ("volume : #{value (btcRate.volume)}")
           }
         }
         
