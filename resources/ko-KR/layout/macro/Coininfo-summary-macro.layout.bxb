@@ -1,0 +1,27 @@
+layout-macro-def(Coininfo-summary-macro) {
+  params {
+    param (coininfo) {
+      type (Coininfo)
+      min (Required)
+      max (One)
+    }
+  }
+
+  content {
+    
+    cell-card {
+      slot1 {
+          image {
+              url ("#{value (coininfo.image.url)}")
+              shape (Square)
+          }
+      }
+      slot2 {
+          content {
+              order (PrimarySecondary)
+              primary ("#{value (coininfo.coin)}")
+          }
+      }
+    }
+  }
+}

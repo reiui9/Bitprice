@@ -1,0 +1,93 @@
+layout-macro-def(BTCRate-details-macro) {
+  params {
+    param (btcRate) {
+      type (BTCRate)
+      min (Required)
+      max (One)
+    }
+  }
+
+  content {
+    section {
+      content {
+        image-card {
+          aspect-ratio (4:3)
+          title-area {
+            slot1 {
+              text {
+                value {
+                  template ("#{value (btcRate.coins.coin)}")
+                }
+              }
+            }
+          }
+          image-url ("#{value (btcRate.chart.url)}")
+        }
+        paragraph {
+          value {
+            template ("15분 전 : #{value (btcRate.quarterBefore)}")
+          }
+        }
+        paragraph {
+          value {
+            template ("마지막 : #{value (btcRate.last)}")
+          }
+        }
+        paragraph {
+          value {
+            template ("살때 값 : #{value (btcRate.buy)}")
+          }
+        }
+        paragraph {
+          value {
+            template ("팔때 값 : #{value (btcRate.sell)}")
+          }
+        }
+        paragraph {
+          value {
+            template ("symbol : #{value (btcRate.symbol)}")
+          }
+        }
+        
+        split-input-cell {
+          left {
+              input-cell {
+                  label {
+                      template ("Coin Type")
+                  }
+                  value {
+                      template ("#{value (btcRate.coins.coin)}") // Standard
+                  }
+                  on-click {
+                      intent {
+                        goal: BTCRate
+                        value: Exchangeinfo {
+                          exchange: $expr(btcRate.coins.exchange)
+                        }
+                      }
+                  }
+              }
+          }
+          right {
+              input-cell {
+                label {
+                    template ("Exchange Type")
+                }
+                value {
+                    template ("#{value (btcRate.coins.exchange)}")
+                }
+                on-click {
+                    intent {
+                      goal: BTCRate
+                      value: Coininfo {
+                        coin: $expr(btcRate.coins.coin)
+                      }
+                    }
+                }
+              }
+          }
+        }
+      }
+    }
+  }
+}

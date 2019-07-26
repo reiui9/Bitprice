@@ -1,0 +1,19 @@
+input-view {
+ match {
+    Coininfo (this)
+  }
+
+  message (어느 코인을 고르시겠습니까?)
+
+  render {
+    selection-of (this) {
+      where-each (item) {
+        layout-macro (Coininfo-summary-macro) {
+          param (coininfo) {
+            expression (item)
+          }
+        }
+      }
+    }
+  }
+}

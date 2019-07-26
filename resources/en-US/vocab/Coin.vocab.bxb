@@ -1,0 +1,12 @@
+vocab (Coin) {
+  "BTC" {"BTC" "Bitcoin"}
+  "DASH" {"DASH"}
+  "ETH" {"ETH" "Ethereum"}
+  "ETC" {"ETC" "Ethereum Classic"}
+  "LTC" {"LTC" "Litecoin"}
+  "XRP" {"XRP" "Ripple"}
+  "BCH" {"BHC" "Bitcoin Cash"}
+  "XMR" {"XMR" "Monero"}
+  "ZEC" {"ZEC" "Zcash"}
+  "EOS" {"EOS" "EOS"}
+}

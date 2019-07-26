@@ -1,3 +1,6 @@
-text (Exchange) {
-  description (__DESCRIPTION__)
+enum (Exchange) {
+  description (Type of a exchange.)
+  symbol (USD)
+  symbol (KRW)
+  symbol (BTC)
 }

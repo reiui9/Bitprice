@@ -1,0 +1,11 @@
+dialog (Result) {
+  match {
+    BTCRate(this)
+  }
+  if ("size(this) > 1") {
+    template ("Here is list of Bitcoin prices")
+  } else-if ("size(this) == 1") {
+    template ("Here is #{value (this.coins.coin)} with #{value (this.coins.exchange)}")
+  }
+
+}

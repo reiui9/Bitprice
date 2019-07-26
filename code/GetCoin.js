@@ -5,24 +5,24 @@ var config = require('config')
 module.exports.function = function getCoin () {
   console.log("GET /ticker without any parameter!)")
   // Read the remote.url value from capsule.properties
-  var response = http.getUrl(config.get('blockchain.url') + '/ticker', { format: 'json' })
+  var response = ['BTC','ETC','LTC']
   
   // image setting
   var images = []
-  images[0] = config.get('image.bitcoin')
-  images[1] = config.get('image.ethereum')
-  images[2] = config.get('image.litecoin')
+  images[0] = config.get('image.BTC')
+  images[1] = config.get('image.ETC')
+  images[2] = config.get('image.LTC')
 
   var items = []
-  for (var currency in response) {
+  for (var i in response) {
     var item = {
-      coin: currency,
+      coin: response[i],
       image: {
         url: ""
       }
     }
     // image random setting
-    item.image.url = images[Math.floor(response[currency]['15m'] % 3)]
+    item.image.url = images[i]
     items.push(item)
   }
   return items

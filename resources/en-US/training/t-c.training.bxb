@@ -1,5 +1,5 @@
 train (t-c1vhsllolicgl7eexojhw8dld) {
-  utterance ("[g:BTCRate] Get (BTC)[v:Coin] rate with (KRW)[v:Exchange]")
+  utterance ("[g:BTCRate] Get (BTC)[v:Coin:BTC] rate with (KRW)[v:Exchange:KRW]")
   plan (Y2BjEEmtSMwtyEnVyygpKdBzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGAGYjBsgA=)
-  last-modified (1563610647564)
+  last-modified (1563709480254)
 }

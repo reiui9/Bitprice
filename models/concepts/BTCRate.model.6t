@@ -27,7 +27,7 @@ structure (BTCRate) {
   }
   property (image) {
     type (Image)
-    min (Required)
+    min (Optional)
   }
   property (chart) {
     type (Chart)

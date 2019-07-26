@@ -1,3 +1,13 @@
-text (Coin) {
-  description (__DESCRIPTION__)
+enum (Coin) {
+  description (Type of a coin.)
+  symbol (BTC)
+  symbol (DASH)
+  symbol (ETH)
+  symbol (ETC)
+  symbol (LTC)
+  symbol (XRP)
+  symbol (BCH)
+  symbol (XMR)
+  symbol (ZEC)
+  symbol (EOS)
 }
