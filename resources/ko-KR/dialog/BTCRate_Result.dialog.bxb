@@ -1,0 +1,11 @@
+dialog (Result) {
+  match {
+    BTCRate(this)
+  }
+  if ("size(this) > 1") {
+    template ("암호화폐 가격 리스트 입니다.")
+  } else-if ("size(this) == 1") {
+    template ("#{value (this.coins.exchange)}로 환산한 #{value (this.coins.coin)} 가격입니다. ")
+  }
+
+}

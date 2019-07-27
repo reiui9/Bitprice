@@ -1,7 +1,7 @@
-layout-macro-def(Exchangeinfo-summary-macro) {
+layout-macro-def(Coininfo-summary-macro) {
   params {
-    param (exchangeinfo) {
-      type (Exchangeinfo)
+    param (coininfo) {
+      type (Coininfo)
       min (Required)
       max (One)
     }
@@ -12,14 +12,14 @@ layout-macro-def(Exchangeinfo-summary-macro) {
     cell-card {
       slot1 {
           image {
-              url ("#{value (exchangeinfo.image.url)}")
+              url ("#{value (coininfo.image.url)}")
               shape (Square)
           }
       }
       slot2 {
           content {
               order (PrimarySecondary)
-              primary ("#{value (exchangeinfo.exchange)}")
+              primary ("#{value (coininfo.coin)}")
           }
       }
     }

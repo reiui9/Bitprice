@@ -1,6 +1,0 @@
-structure (Image) {
-  property (url) {
-    type (Url)
-    min (Optional) max (One)
-  }
-}

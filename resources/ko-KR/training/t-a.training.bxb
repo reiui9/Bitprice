@@ -1,0 +1,5 @@
+train (t-ak2xnx2lmciqb036qkqz0xjvn) {
+  utterance ("[g:BTCRate,r:GetBTCRates,v:Exchange:USD] (비트코인)[v:Coin:BTC] 가격 알려줘")
+  plan (Y2BjEEmtSMwtyEnVyygpKdBzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGABYxB6hgA)
+  last-modified (1563712468639)
+}

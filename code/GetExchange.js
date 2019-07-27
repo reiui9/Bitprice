@@ -3,19 +3,22 @@ var console = require('console')
 var config = require('config')
 
 module.exports.function = function getExchange () {
-  var items = [
-    {
-      exchange: "usd",
-      symbol: "$"
-    },
-    {
-      exchange: "krw",
-      symbol: "₩"
-    },
-    {
-      exchange: "btc",
-      symbol: "₿"
-    }
+  var exchanges = [
+    'USD',
+    'KRW',
+    'BTC'
   ]
+  var items = []
+
+  exchanges.forEach(exchange => {
+    var item = {
+      exchange: exchange,
+      image: {
+        url: ""
+      }
+    }
+    item.image.url = '/images/'+exchange+'.jpg'
+    items.push(item)
+  })
   return items
 }

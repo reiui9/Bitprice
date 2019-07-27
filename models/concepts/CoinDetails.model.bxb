@@ -1,7 +1,0 @@
-structure (CoinDetails) {
-  description (__DESCRIPTION__)
-  property (__PROPERTY_NAME__) {
-    type (__PROPERTY_TYPE__)
-    min (Optional) max (One)
-  }
-}

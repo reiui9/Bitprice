@@ -1,0 +1,5 @@
+train (t-som0p7tnh04wiagjxs7og7ctv) {
+  utterance ("[g:BTCRate] (이더리움)[v:Coin:ETH] 가격 (달러)[v:Exchange:USD]로 보여줘")
+  plan (Y2BjEEmtSMwtyEnVyygpKdBzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGAGYjBsgA=)
+  last-modified (1564198508910)
+}

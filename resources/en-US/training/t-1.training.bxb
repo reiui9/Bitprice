@@ -1,0 +1,5 @@
+train (t-18fkfndxgi4gzllf49nd0ngg8) {
+  utterance ([g:BTCRate,v:Exchange:USD] Show me the crypto currency prices)
+  plan (Y2BjEEmtSMwtyEnVyygpKdBzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGACYiBcgA=)
+  last-modified (1564199165617)
+}

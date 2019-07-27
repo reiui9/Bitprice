@@ -1,0 +1,5 @@
+train (t-jqhqypiyudz28clt2plg9arrz) {
+  utterance ([g:BTCRate,v:Exchange:KRW] 암호화폐 가격 알려줘)
+  plan (Y2BjEEmtSMwtyEnVyygpKdBzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGACYiBcgA=)
+  last-modified (1564197981607)
+}

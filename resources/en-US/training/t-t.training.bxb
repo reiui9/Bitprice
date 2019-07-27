@@ -1,0 +1,5 @@
+train (t-tkm0hhb23971ftipn8nx4pgjt) {
+  utterance ("[g:BTCRate] Show me the (etherium)[v:Coin:ETH] price in (BTC)[v:Exchange:BTC]")
+  plan (Y2BjEEmtSMwtyEnVyygpKdBzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGAGYjBsgA=)
+  last-modified (1564199316679)
+}

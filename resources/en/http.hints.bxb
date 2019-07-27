@@ -1,5 +1,0 @@
-hints {
-  uncategorized {
-    utterance ("[g:GetBTCRates] Get BTC Rate")
-  }
-}

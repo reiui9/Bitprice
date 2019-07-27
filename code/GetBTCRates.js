@@ -6,9 +6,9 @@ module.exports.function = function getBTCRates (coins) {
   var krakenMarketBaseUrl = config.get('cryptowatch.api.base.url') + '/markets/kraken'
   var bithumbMarketBaseUrl = config.get('cryptowatch.api.base.url') + '/markets/bithumb'
   var targetMarketBaseUrl = krakenMarketBaseUrl
-  coins.coin = coins.coin.toLowerCase()
-  coins.exchange = coins.exchange.toLowerCase()
-  if (coins.exchange == 'krw') {
+  // coins.coin = coins.coin
+  // coins.exchange = coins.exchange.toLowerCase()
+  if (coins.exchange.toLowerCase() == 'krw') {
     targetMarketBaseUrl = bithumbMarketBaseUrl
   }
   var result = {
@@ -47,7 +47,7 @@ module.exports.function = function getBTCRates (coins) {
   if (coins.exchange == coins.coin) {
     return result
   }
-  var response = http.getUrl(targetMarketBaseUrl + '/' + coins.coin + coins.exchange.toLowerCase() + '/summary', { format: 'json' })
+  var response = http.getUrl(targetMarketBaseUrl + '/' + coins.coin.toLowerCase() + coins.exchange.toLowerCase() + '/summary', { format: 'json' })
   result.price = response.result.price
   result.volume = response.result.volume
   return result

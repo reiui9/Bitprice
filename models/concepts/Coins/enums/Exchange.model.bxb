@@ -1,0 +1,6 @@
+enum (Exchange) {
+  description (Type of a exchange.)
+  symbol (USD)
+  symbol (KRW)
+  symbol (BTC)
+}

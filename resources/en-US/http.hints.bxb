@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    utterance ("Show me the bitcoin price")
+    utterance ("Show me the etherium price in BTC")
+    utterance ("Show me the crypto coin prices")
+  }
+}

@@ -1,0 +1,5 @@
+train (t-eb787j3t612z7vqsm3nbmz2xh) {
+  utterance ([g:BTCRate,r:GetBTCRates,v:Exchange:USD] Get BTC rates)
+  plan (Y2BjEEmtSMwtyEnVyygpKdBzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGAGYhBqhgA)
+  last-modified (1564196731726)
+}

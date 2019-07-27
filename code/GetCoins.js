@@ -7,10 +7,10 @@ module.exports.function = function getCoins (coin, exchange) {
     coin = 'many'
   }
   if (exchange == undefined) {
-    exchange = 'usd'
+    exchange = 'USD'
   }
   return {
-    coin: coin.toLowerCase(),
-    exchange: exchange.toLowerCase()
+    coin: coin,
+    exchange: exchange
   }
 }
