@@ -1,0 +1,132 @@
+layout-macro-def(BTCRate-details-news-macro) {
+  params {
+    param (btcRate) {
+      type (BTCRate)
+      min (Required)
+      max (One)
+    }
+  }
+  content {
+    section{
+      content{
+        hbox {
+          content{
+            vbox{
+              grow (5)
+              halign (Center)
+              content{
+                text{
+                  value {
+                    template ("Latest news about #{value (btcRate.coins.coin)}")
+                  }
+                  style(Detail_L)
+                }
+              }
+            }
+          }
+        }  
+        thumbnail-card {
+          title-area {
+            halign (Start)
+            slot1 {
+              single-line {
+                text {
+                  value ("Best 10 Blockchain Books 2019: 10 Books You Should Read First")
+                  style (Title_XS)
+                }
+              }
+            }
+            slot2 {
+              paragraph {
+                value {
+                  template ("Books are a convenient way to learn many useful things. It’s not surprising that a lot has been written about such a phenomenon as Bitcoin. Here are the top 10!")
+                }
+                style (Detail_M_Soft)
+              }
+            }
+          }
+          image-url {
+              template ("/images/news1.jpg")
+          }
+          image-position (End)
+          on-click {
+            intent {
+              goal: BTCRate
+              value: Exchangeinfo {
+                exchange: $expr(btcRate.coins.exchange)
+              }
+            }
+          }
+        }
+        thumbnail-card {
+          title-area {
+            halign (Start)
+            slot1 {
+              single-line {
+                text {
+                  value ("How Long Does it Take to Mine a Bitcoin?")
+                  style (Title_XS)
+                }
+              }
+            }            
+            slot2 {
+              paragraph {
+                value {
+                    template ("The complexity of Bitcoin mining is growing every day. Find out the exact numbers in order to know how long it will take to mine one Bitcoin")
+                }
+                style (Detail_M_Soft)
+              }
+            }
+          }
+          image-url {
+              template ("/images/news2.jpg")
+          }
+          image-position (End)
+          on-click {
+            intent {
+              goal: BTCRate
+              value: Exchangeinfo {
+                exchange: $expr(btcRate.coins.exchange)
+              }
+            }
+          }        
+        }
+        thumbnail-card {
+          title-area {
+              halign (Start)
+              slot1 {
+                single-line {
+                  text {
+                    value ("How does Bitcoin make money?")
+                    style (Title_XS)
+                  }
+                }
+              }
+              slot2 {
+                paragraph {
+                  value {
+                      template ("Want to make a profit out of Bitcoin owning? We definitely know how to help you and will share some possible ways for crypto riches")
+                  }
+                  style (Detail_M_Soft)
+                }
+              }
+          }
+          image-url {
+              template ("/images/news3.jpg")
+          }
+          image-position (End)
+          on-click {
+            intent {
+              goal: BTCRate
+              value: Exchangeinfo {
+                exchange: $expr(btcRate.coins.exchange)
+              }
+            }
+          }        
+        }
+      }
+    }
+  }
+}
+
+

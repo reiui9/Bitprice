@@ -8,7 +8,6 @@ layout-macro-def(Exchangeinfo-summary-macro) {
   }
 
   content {
-    
     cell-card {
       slot1 {
           image {

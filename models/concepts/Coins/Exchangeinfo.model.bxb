@@ -7,4 +7,8 @@ structure (Exchangeinfo) {
     type (Image)
     min (Optional)
   }
+  property (symbol) {
+    type (Symbol)
+    min (Optional)
+  }
 }
