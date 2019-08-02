@@ -1,6 +1,6 @@
 dialog (Result) {
   match {
-    BTCRate(this)
+    BTCRate (this)
   }
   if ("size(this) > 1") {
     template ("Here is list of Bitcoin prices")
