@@ -15,4 +15,8 @@ structure (BTCRate) {
     type (Coins)
     min (Required)
   }
+  property (news) {
+    type (News)
+    max (Many)
+  }
 }

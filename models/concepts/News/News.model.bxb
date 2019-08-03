@@ -1,0 +1,18 @@
+structure (News) {
+  property (title) {
+    type (Title)
+    min (Required)
+  }
+  property (description) {
+    type (Description)
+    min (Required)
+  }
+  property (thumbnail) {
+    type (Thumbnail)
+    min (Required)
+  }
+  property (url) {
+    type (Url)
+    min (Required)
+  }
+}

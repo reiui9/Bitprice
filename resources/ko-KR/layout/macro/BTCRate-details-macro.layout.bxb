@@ -6,90 +6,62 @@ layout-macro-def(BTCRate-details-macro) {
       max (One)
     }
   }
-
   content {
-    section {
-      content {
-        image-card {
-          aspect-ratio (4:3)
-          title-area {
-            slot1 {
-              text {
+    layout{
+      layout-macro (BTCRate-details-top-macro) {
+        param (btcRate) {
+          expression (btcRate)
+        }
+      }
+      layout-macro (BTCRate-details-middle-macro) {
+        param (btcRate) {
+          expression (btcRate)
+        }
+      }
+      layout-macro (BTCRate-details-bottom-macro) {
+        param (btcRate) {
+          expression (btcRate)
+        }
+      }
+      section {
+        content {
+          split-input-cell {
+            left {
+              input-cell {
+                label {
+                  template ("Coin Type")
+                }
                 value {
-                  template ("#{value (btcRate.coins.coin)}")
+                  template ("#{value (btcRate.coins.coin)}") // Standard
+                }
+                on-click {
+                  intent {
+                    goal: BTCRate
+                    value: Exchangeinfo {
+                      exchange: $expr(btcRate.coins.exchange)
+                    }
+                  }
                 }
               }
             }
-          }
-          image-url ("#{value (btcRate.chart.url)}")
-        }
-        paragraph {
-          value {
-            template ("last : #{value (btcRate.price.last)} #{value (btcRate.coins.exchange)}")
-          }
-        }
-        paragraph {
-          value {
-            template ("high : #{value (btcRate.price.high)} #{value (btcRate.coins.exchange)}")
-          }
-        }
-        paragraph {
-          value {
-            template ("low : #{value (btcRate.price.low)} #{value (btcRate.coins.exchange)}")
-          }
-        }
-        paragraph {
-          value {
-            template ("change percentage : #{value (btcRate.price.change.percentage)}%")
-          }
-        }
-        paragraph {
-          value {
-            template ("change absolute : #{value (btcRate.price.change.absolute)}")
-          }
-        }
-        paragraph {
-          value {
-            template ("volume : #{value (btcRate.volume)}")
-          }
-        }
-        
-        split-input-cell {
-          left {
-              input-cell {
-                  label {
-                      template ("Coin Type")
-                  }
-                  value {
-                      template ("#{value (btcRate.coins.coin)}") // Standard
-                  }
-                  on-click {
-                      intent {
-                        goal: BTCRate
-                        value: Exchangeinfo {
-                          exchange: $expr(btcRate.coins.exchange)
-                        }
-                      }
-                  }
-              }
-          }
-          right {
+            right {
               input-cell {
                 label {
-                    template ("Exchange Type")
+                  template ("Exchange Type")
                 }
                 value {
-                    template ("#{value (btcRate.coins.exchange)}")
+                  template ("#{value (btcRate.coins.exchange)}")
                 }
                 on-click {
-                    intent {
-                      goal: BTCRate
-                      value: Coininfo {
-                        coin: $expr(btcRate.coins.coin)
-                      }
+                  intent {
+                    goal: BTCRate
+                    value: Coininfo {
+                      coin: $expr(btcRate.coins.coin)
                     }
+                  }
                 }
               }
+            }
           }
         }
       }
