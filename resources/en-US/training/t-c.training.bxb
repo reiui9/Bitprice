@@ -3,3 +3,8 @@ train (t-c1vhsllolicgl7eexojhw8dld) {
   plan (Y2BjEEmtSMwtyEnVyygpKdBzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGAGYjBsgA=)
   last-modified (1564199340484)
 }
+train (t-ckxykm9c4i44by21gahcp7ezf) {
+  utterance ([g:BTCRate,v:Exchange:USD] bitcoin prices)
+  plan (Y2BjEEmtSMwtyEnVyygpKdBzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGACYiBcgA=)
+  last-modified (1564809953454)
+}

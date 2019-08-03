@@ -18,21 +18,17 @@ layout-macro-def(BTCRate-details-middle-macro) {
                   style (Detail_M_Soft)
                 }
                 single-line {
-                  spacer
+                  
                    image {
                        url ("/images/up.png")
                        shape (Square)
                    }
-                   spacer
+                   
                 }
                 text {
                   value ("#{value (btcRate.price.high)}")
                   style (Detail_M)
-                }
-                text {
-                  value ("#{value (btcRate.coins.exchange)}")
-                  style (Detail_M_Soft)
-                }              
+                }           
               }
             }
             vbox {
@@ -42,21 +38,17 @@ layout-macro-def(BTCRate-details-middle-macro) {
                   style (Detail_M_Soft)
                 }
                 single-line {
-                  spacer
+                  
                    image {
                        url ("/images/down.png")
                        shape (Square)
                    }
-                   spacer
+                   
                 }
                 text {
                   value ("#{value (btcRate.price.high)}")
                   style (Detail_M)
-                }
-                text {
-                  value ("#{value (btcRate.coins.exchange)}")
-                  style (Detail_M_Soft)
-                }              
+                }          
               }
             }
             vbox {
@@ -66,21 +58,17 @@ layout-macro-def(BTCRate-details-middle-macro) {
                   style (Detail_M_Soft)
                 }
                 single-line {
-                  spacer
+                  
                    image {
                        url ("/images/down.png")
                        shape (Square)
                    }
-                   spacer
+                   
                 }
                 text {
                   value ("#{value (btcRate.price.high)}")
                   style (Detail_M)
-                }
-                text {
-                  value ("#{value (btcRate.coins.exchange)}")
-                  style (Detail_M_Soft)
-                }              
+                }        
               }
             }
             vbox {
@@ -90,21 +78,17 @@ layout-macro-def(BTCRate-details-middle-macro) {
                   style (Detail_M_Soft)
                 }
                 single-line {
-                  spacer
+                  
                    image {
                        url ("/images/up.png")
                        shape (Square)
                    }
-                   spacer
+                   
                 }
                 text {
                   value ("#{value (btcRate.price.high)}")
                   style (Detail_M)
-                }
-                text {
-                  value ("#{value (btcRate.coins.exchange)}")
-                  style (Detail_M_Soft)
-                }              
+                }          
               }
             }
             vbox {
@@ -114,20 +98,16 @@ layout-macro-def(BTCRate-details-middle-macro) {
                   style (Detail_M_Soft)
                 }
                 single-line {
-                  spacer
+                  
                    image {
                        url ("/images/down.png")
                        shape (Square)
                    }
-                   spacer
+                   
                 }
                 text {
                   value ("#{value (btcRate.price.high)}")
                   style (Detail_M)
-                }
-                text {
-                  value ("#{value (btcRate.coins.exchange)}")
-                  style (Detail_M_Soft)
                 }
               }
             }

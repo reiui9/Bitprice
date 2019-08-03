@@ -41,6 +41,22 @@ layout-macro-def(BTCRate-details-top-macro) {
             }
           }
         }
+        hbox {
+          content{
+            vbox{
+              grow (5)
+              halign (Center)
+              content{
+                text{
+                  value {
+                    template ("provided by KRAKEN")
+                  }
+                  style(Detail_M_Soft)
+                }
+              }
+            }
+          }
+        } 
       }
     }
   }
