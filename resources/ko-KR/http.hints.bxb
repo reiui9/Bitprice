@@ -1,7 +1,7 @@
 hints {
   uncategorized {
-    utterance ("이더리움 가격 비트코인으로 보여줘")
     utterance ("비트코인 가격 알려줘")
+    utterance ("리플 가격 달러로 보여줘")
     utterance ("암호화폐 가격 알려줘")
   }
 }
