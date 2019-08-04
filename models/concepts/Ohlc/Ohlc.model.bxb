@@ -1,0 +1,26 @@
+structure (Ohlc) {
+  property (open) {
+    type (Open)
+    min (Required)
+  }
+  property (close) {
+    type (Close)
+    min (Required)
+  }
+  property (high) {
+    type (High)
+    min (Required)
+  }
+  property (low) {
+    type (Low)
+    min (Required)
+  }
+  property (date) {
+    type (Date)
+    min (Required)
+  }
+  property (up) {
+    type (Up)
+    min (Required)
+  }
+}

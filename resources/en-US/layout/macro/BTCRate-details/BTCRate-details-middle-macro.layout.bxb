@@ -11,103 +11,34 @@ layout-macro-def(BTCRate-details-middle-macro) {
       content{
         hbox {
           content {
-            vbox {
-              content {
-                text {
-                  value ("07-23")
-                  style (Detail_M_Soft)
-                }
-                single-line {
-                  
-                   image {
-                       url ("/images/up.png")
-                       shape (Square)
-                   }
-                   
-                }
-                text {
-                  value ("#{value (btcRate.price.high)}")
-                  style (Detail_M)
-                }           
-              }
-            }
-            vbox {
-              content {
-                text {
-                  value ("07-22")
-                  style (Detail_M_Soft)
-                }
-                single-line {
-                  
-                   image {
-                       url ("/images/down.png")
-                       shape (Square)
-                   }
-                   
-                }
-                text {
-                  value ("#{value (btcRate.price.high)}")
-                  style (Detail_M)
-                }          
-              }
-            }
-            vbox {
-              content {
-                text {
-                  value ("07-21")
-                  style (Detail_M_Soft)
-                }
-                single-line {
-                  
-                   image {
-                       url ("/images/down.png")
-                       shape (Square)
-                   }
-                   
-                }
-                text {
-                  value ("#{value (btcRate.price.high)}")
-                  style (Detail_M)
-                }        
-              }
-            }
-            vbox {
-              content {
-                text {
-                  value ("07-20")
-                  style (Detail_M_Soft)
-                }
-                single-line {
-                  
-                   image {
-                       url ("/images/up.png")
-                       shape (Square)
-                   }
-                   
-                }
-                text {
-                  value ("#{value (btcRate.price.high)}")
-                  style (Detail_M)
-                }          
-              }
-            }
-            vbox {
-              content {
-                text {
-                  value ("07-19")
-                  style (Detail_M_Soft)
-                }
-                single-line {
-                  
-                   image {
-                       url ("/images/down.png")
-                       shape (Square)
-                   }
-                   
-                }
-                text {
-                  value ("#{value (btcRate.price.high)}")
-                  style (Detail_M)
+            for-each (btcRate.ohlc) {
+              as(ohlc) {
+                vbox {
+                  content {
+                    text {
+                      value ("#{value (ohlc.date)}")
+                      style (Detail_M_Soft)
+                    }
+                    if (ohlc.up) {
+                      single-line {
+                        image {
+                          url ("/images/up.png")
+                          shape (Square)
+                        }
+                      }
+                    } else {
+                      single-line {
+                        image {
+                          url ("/images/down.png")
+                          shape (Square)
+                        }
+                      }
+                    }
+                    text {
+                      value ("#{value (ohlc.close)}")
+                      style (Detail_M)
+                    }
+                  }
                 }
               }
             }
