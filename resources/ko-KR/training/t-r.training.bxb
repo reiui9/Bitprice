@@ -1,5 +1,0 @@
-train (t-r2nkr3i46fkj9yz2ltdqg19yi) {
-  utterance ("[g:BTCRate,v:Exchange:KRW] (이더리움)[v:Coin:ETH] 정보 보여줘")
-  plan (Y2BjEEmtSMwtyEnVyygpKdBzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGAGYjBsgA=)
-  last-modified (1564810394734)
-}

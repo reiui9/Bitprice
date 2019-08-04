@@ -1,0 +1,13 @@
+data:
+  deviceIsInHandsFreeMode: false
+  geo:
+    latitude: '37.334502'
+    longitude: '-121.890654'
+  time: '2019-08-03T06:12:39.319Z'
+  tz: Asia/Seoul
+steps:
+  step-OCO:
+    step-YY0:
+      step-8PJ:
+        step-3YS: ~
+version: 2

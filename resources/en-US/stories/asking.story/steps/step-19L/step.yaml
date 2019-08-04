@@ -1,0 +1,7 @@
+data:
+  sixtree: |-
+    intent {
+      goal { OpenBrowser }
+      value { Url$ref (r-I6D-5) }
+    }
+type: intent

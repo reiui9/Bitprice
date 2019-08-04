@@ -1,0 +1,110 @@
+- request:
+    capsuleId: dream.bitcoin
+    headers:
+      Accept-Charset: UTF-8
+      Accept-Encoding: gzip
+      User-Agent: Mozilla/5.0 (compatible) gzip
+    method: GET
+    url: >-
+      https://cryptocontrol.io/api/v1/public/news/coin/bitcoin?key=69c130486b440066a2251fde102943ed
+  response:
+    headers:
+      $status: HTTP/1.1 200 OK
+      Access-Control-Allow-Origin: '*'
+      CF-RAY: 5006241a0e23abac-YYZ
+      Connection: close
+      Content-Encoding: gzip
+      Content-Type: application/json; charset=utf-8
+      Date: 'Sat, 03 Aug 2019 06:12:39 GMT'
+      ETag: W/"14565-fLhNYtL1PImWD034pqtBlT3zkVM"
+      Expect-CT: >-
+        max-age=604800,
+        report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server: cloudflare
+      Set-Cookie:
+        - >-
+          connect.sid=s%3A_lTxIz9kmrUbjKvDKWXMSjcGCGMweOTP.n%2B0GxdEh0W3mTEalVVF0DLGcudtkiVvj%2FVO%2B0mpP2pg;
+          Path=/; HttpOnly
+        - >-
+          __cfduid=df3005fbb08ef77460415cfcd0ddd35101564812758; expires=Sun,
+          02-Aug-20 06:12:38 GMT; path=/; domain=.cryptocontrol.io; HttpOnly;
+          Secure
+      Transfer-Encoding: chunked
+      Vary: Accept-Encoding
+    responseFilename: webcache/cryptocontrol.io-1-res.json
+    status: 200
+- request:
+    capsuleId: dream.bitcoin
+    headers:
+      Accept-Charset: UTF-8
+      Accept-Encoding: gzip
+      User-Agent: Mozilla/5.0 (compatible) gzip
+    method: GET
+    url: 'https://api.cryptowat.ch/markets/bithumb/btckrw/summary'
+  response:
+    headers:
+      $status: HTTP/1.1 200 OK
+      Access-Control-Allow-Headers: X-CW-Integration
+      Access-Control-Allow-Origin: '*'
+      Connection: close
+      Content-Encoding: gzip
+      Content-Length: '195'
+      Content-Type: application/json
+      Date: 'Sat, 03 Aug 2019 06:12:39 GMT'
+    responseFilename: webcache/api.cryptowat.ch-1-res.json
+    status: 200
+- request:
+    capsuleId: dream.bitcoin
+    headers:
+      Accept-Charset: UTF-8
+      Accept-Encoding: gzip
+      User-Agent: Mozilla/5.0 (compatible) gzip
+    method: GET
+    url: >-
+      https://cryptocontrol.io/api/v1/public/news/coin/bitcoin?key=69c130486b440066a2251fde102943ed
+  response:
+    headers:
+      $status: HTTP/1.1 200 OK
+      Access-Control-Allow-Origin: '*'
+      CF-RAY: 500624523f183034-YYZ
+      Connection: close
+      Content-Encoding: gzip
+      Content-Type: application/json; charset=utf-8
+      Date: 'Sat, 03 Aug 2019 06:12:47 GMT'
+      ETag: W/"14565-fLhNYtL1PImWD034pqtBlT3zkVM"
+      Expect-CT: >-
+        max-age=604800,
+        report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server: cloudflare
+      Set-Cookie:
+        - >-
+          connect.sid=s%3AMjsnMxeVPWl5UzMbqMPkqhMEGOQRpgGi.z3DmUXgFevNiXTkiS1umutcbqGZsOAOY%2B%2FVQWnlsiMM;
+          Path=/; HttpOnly
+        - >-
+          __cfduid=d9c9ce1fcaeab7381f561891ec541731a1564812767; expires=Sun,
+          02-Aug-20 06:12:47 GMT; path=/; domain=.cryptocontrol.io; HttpOnly;
+          Secure
+      Transfer-Encoding: chunked
+      Vary: Accept-Encoding
+    responseFilename: webcache/cryptocontrol.io-2-res.json
+    status: 200
+- request:
+    capsuleId: dream.bitcoin
+    headers:
+      Accept-Charset: UTF-8
+      Accept-Encoding: gzip
+      User-Agent: Mozilla/5.0 (compatible) gzip
+    method: GET
+    url: 'https://api.cryptowat.ch/markets/bithumb/btckrw/summary'
+  response:
+    headers:
+      $status: HTTP/1.1 200 OK
+      Access-Control-Allow-Headers: X-CW-Integration
+      Access-Control-Allow-Origin: '*'
+      Connection: close
+      Content-Encoding: gzip
+      Content-Length: '194'
+      Content-Type: application/json
+      Date: 'Sat, 03 Aug 2019 06:12:47 GMT'
+    responseFilename: webcache/api.cryptowat.ch-2-res.json
+    status: 200

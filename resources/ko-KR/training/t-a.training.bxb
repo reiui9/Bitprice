@@ -1,5 +1,5 @@
 train (t-ak2xnx2lmciqb036qkqz0xjvn) {
-  utterance ("[g:BTCRate,r:GetBTCRates,v:Exchange:USD] (비트코인)[v:Coin:BTC] 가격 알려줘")
-  plan (Y2BjEEmtSMwtyEnVyygpKdBzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGABYxB6hgA)
-  last-modified (1563712468639)
+  utterance ("[g:BTCRate,r:GetBTCRates,v:Exchange:KRW] {[g:Coin] (비트코인)[v:Coin:BTC]} 가격 알려줘")
+  plan (Y2BnEE0pSk3M1UvKLEnOz8zTcwpxDkosSWWQRBV2Ty2ByhQzCKNKOQOJYgYxDPUQcSFMxVjF0PS7ViRnJOalpzKwMTAyMDEwM7AwsALZDHAeM5DFAMY8DCDACsQgtSB1QBIA)
+  last-modified (1564900907456)
 }

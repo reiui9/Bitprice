@@ -1,5 +1,5 @@
 capsule {
-  id (example.http)
+  id (dream.bitcoin)
   version (1.0.0)
   format (3)
   targets {
@@ -15,9 +15,9 @@ capsule {
     import (viv.common) { 
       as (common) version (3.32.13)
     }
-    import (viv.money) { 
-      as (money) 
-      version (2.20.12)
-    }
+  }
+  store-sections {
+    section (BusinessAndFinance)
+    section (NewsAndMagazines)
   }
 }

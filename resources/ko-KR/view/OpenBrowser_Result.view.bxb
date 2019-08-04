@@ -1,0 +1,13 @@
+result-view {
+  match: Url (this) {
+    min(Required) max (One)
+  }
+
+  render {
+    nothing
+  }
+
+  app-launch {
+     payload-uri ("#{value(this)}")
+  }
+}

@@ -2,10 +2,11 @@ dialog (Result) {
   match {
     BTCRate (this)
   }
-  if ("size(this) > 1") {
-    template ("Here is list of Bitcoin prices")
-  } else-if ("size(this) == 1") {
-    template ("Here is #{value (this.coins.coin)} with #{value (this.coins.exchange)}")
+  
+  if ("(this.price.change.absolute) > 0") {
+    template ("One #{value (this.coins.coin)} is #{value (this.price.last)} #{value (this.coins.exchange)} now. It has risen #{value (this.price.change.absolute)} #{value (this.coins.exchange)} more than 24 hours ago.")
+  } else{
+    template ("One #{value (this.coins.coin)} is #{value (this.price.last)} #{value (this.coins.exchange)} now. It has fall #{value (this.price.change.absolute)} #{value (this.coins.exchange)} less than 24 hours ago.")
   }
 
 }

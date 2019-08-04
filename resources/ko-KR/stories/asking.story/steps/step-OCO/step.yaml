@@ -1,0 +1,3 @@
+data:
+  aligned: '[g:BTCRate,v:Exchange:KRW] (비트코인)[v:Coin:BTC] 가격 얼마야?'
+type: intent

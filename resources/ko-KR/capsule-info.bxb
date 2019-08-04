@@ -1,12 +1,17 @@
 capsule-info {
-  display-name (HTTP Requests Sample Capsule)
-  dispatch-name (HTTP Requests Sample Capsule)
-  developer-name (Bixby Sample Capsules)
-  icon-asset (/images/bixby-logo.png)
-  description ("A sample capsule to demonstrate making HTTP calls.")
-  website-url (https://bixbydevelopers.com/dev/docs/sample-capsules/samples)
+  display-name (비트코인)
+  dispatch-name (비트코인)
+  developer-name (Dream)
+  icon-asset (/images/logo.png)
+  description ("사용자에게 실시간으로 현재 암호화폐 가격과 동향을 보여줍니다.")
   search-keywords {
-    keyword (sample capsule)
-    keyword (http requests)
+    keyword (블록체인)
+    keyword (비트코인)
+    keyword (암호화폐)
+    keyword (이더리움)
+    keyword (Bitcoin)
+    keyword (Crypto currency)
+    keyword (Ethurium)
+    keyword (Crypto)
   }
 }

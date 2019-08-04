@@ -1,0 +1,5 @@
+train (t-yunpjjh3hm82vgpwoct3f7lb9) {
+  utterance ("[g:BTCRate,v:Exchange:KRW] {[g:Coin] (리플)[v:Coin:XRP]} 가격 알려줘")
+  plan (Y2BnEE0pSk3M1UvKLEnOz8zTcwpxDkosSWWQRBV2Ty2ByhQzCKNKOQOJYgYxDPUQcSFMxVjF0PS7ViRnJOalpzKwMTAyMDEwM7AwsALZDHAeM5DFAMY8DCDAAsRsYFWMDCwA)
+  last-modified (1564900332291)
+}

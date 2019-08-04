@@ -1,0 +1,7 @@
+data:
+  sixtree: |-
+    intent {
+      goal { BTCRate }
+      value { Coininfo$ref (r-JGD-1) }
+    }
+type: intent

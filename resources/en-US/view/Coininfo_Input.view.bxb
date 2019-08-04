@@ -1,0 +1,19 @@
+input-view {
+ match {
+    Coininfo (this)
+  }
+
+  message (What kind of crypto currency do you want to know?)
+
+  render {
+    selection-of (this) {
+      where-each (item) {
+        layout-macro (Coininfo-summary-macro) {
+          param (coininfo) {
+            expression (item)
+          }
+        }
+      }
+    }
+  }
+}
