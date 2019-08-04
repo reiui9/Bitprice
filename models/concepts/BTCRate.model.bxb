@@ -19,4 +19,8 @@ structure (BTCRate) {
     type (News)
     max (Many)
   }
+  property (ohlc) {
+    type (Ohlc)
+    max (Many)
+  }
 }
