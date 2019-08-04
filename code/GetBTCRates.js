@@ -66,6 +66,11 @@ function decimalToKRW(decimal) {
   var 만 = Math.pow(10, 4)
   var krw = ""
   decimal = parseInt(decimal)
+  var negative = false
+  if (decimal < 0) {
+    decimal = -decimal
+    negative = true
+  }
   if (decimal > 억) {
     var num = Math.floor(decimal / 억)
     krw = num.toString() + "억"
@@ -83,6 +88,9 @@ function decimalToKRW(decimal) {
     krw = krw + " "  
   }
   krw = krw + decimal.toString()
+  if (negative) {
+    krw = '-' + krw
+  }
   return krw
 }
 
@@ -115,7 +123,6 @@ function getOhlcData(market, coin, exchange, period, count) {
     results.push(result)
 
   })
-  console.log(results)
   return results
 }
 
@@ -139,7 +146,7 @@ module.exports.function = function getBTCRates (coins) {
       low: "1",
       change: {
         percentage: 0,
-        absolute: 0
+        absolute: "0"
       }
     },
     volume: 0,
@@ -161,13 +168,21 @@ module.exports.function = function getBTCRates (coins) {
     if (key != 'last' && key != 'high' && key != 'low') {
       continue
     }
-    result.price[key] = result.price[key].toString()
-    result.price[key] = scientificToDecimal(result.price[key])
+    result.price[key] = scientificToDecimal(result.price[key].toString())
     if (coins.exchange.toLowerCase() == 'krw') {
       result.price[key] = decimalToKRW(result.price[key])
     }
   }
+  console.log(result.price.change.absolute)
+  console.log(typeof(result.price.change.absolute))
+  result.price.change.absolute = scientificToDecimal(result.price.change.absolute.toString())
+  if (coins.exchange.toLowerCase() == 'krw') {
+    result.price.change.absolute = decimalToKRW(result.price.change.absolute)
+  }
+  console.log(result.price.change.absolute)
+  console.log(typeof(result.price.change.absolute))
   result.ohlc = getOhlcData(market, coins.coin, coins.exchange)
   result.volume = response.result.volume
+  console.log(result)
   return result
 }

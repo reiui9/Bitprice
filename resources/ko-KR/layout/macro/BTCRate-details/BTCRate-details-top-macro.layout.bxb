@@ -47,11 +47,20 @@ layout-macro-def(BTCRate-details-top-macro) {
               grow (5)
               halign (Center)
               content{
-                text{
-                  value {
-                    template ("provided by KRAKEN")
+                if ("btcRate.coins.exchange == 'KRW'") {
+                  text{
+                    value {
+                      template ("provided by BITHUMB")
+                    }
+                    style(Detail_M_Soft)
                   }
-                  style(Detail_M_Soft)
+                } else {
+                  text{
+                    value {
+                      template ("provided by KRAKEN")
+                    }
+                    style(Detail_M_Soft)
+                  }
                 }
               }
             }
