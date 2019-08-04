@@ -16,5 +16,10 @@ endpoints {
     action-endpoint (GetExchange) {
       local-endpoint (GetExchange.js)
     }
+    
+    action-endpoint (OpenBrowser) {
+      accepted-inputs (url)
+      local-endpoint (OpenBrowser.js)
+    } 
   }
 }

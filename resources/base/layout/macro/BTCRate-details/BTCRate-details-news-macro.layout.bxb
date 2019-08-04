@@ -33,7 +33,7 @@ layout-macro-def(BTCRate-details-news-macro) {
                 slot1 {
                   single-line {
                     text {
-                      value ("#{news.title}")
+                      value ("#{value(news.title)}")
                       style (Title_XS)
                     }
                   }
@@ -41,22 +41,20 @@ layout-macro-def(BTCRate-details-news-macro) {
                 slot2 {
                   paragraph {
                     value {
-                      template ("#{news.description}")
+                      template ("#{value(news.description)}")
                     }
                     style (Detail_M_Soft)
                   }
                 }
               }
               image-url {
-                template ("#{news.thumbnail}")
+                template ("#{value(news.thumbnail)}")
               }
               image-position (End)
               on-click {
                 intent {
-                  goal: BTCRate
-                  value: Exchangeinfo {
-                    exchange: $expr(btcRate.coins.exchange)
-                  }
+                  goal: OpenBrowser
+                  value: $expr(news.url)
                 }
               }
             }

@@ -12,6 +12,22 @@ layout-macro-def(BTCRate-details-bottom-macro) {
         hbox {
           content {
             vbox {
+              grow (5)
+              halign (Center)
+              content {
+                single-line {
+                  text {
+                    value ("In 24 hours")
+                    style(Detail_M_Soft)
+                  }
+                }
+              }
+            }
+          }
+        }
+        hbox {
+          content {
+            vbox {
               content {
                 single-line {
                   text {

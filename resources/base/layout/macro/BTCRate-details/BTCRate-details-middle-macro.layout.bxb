@@ -1,0 +1,52 @@
+layout-macro-def(BTCRate-details-middle-macro) {
+  params {
+    param (btcRate) {
+      type (BTCRate)
+      min (Required)
+      max (One)
+    }
+  }
+  content {
+    section{
+      content{
+        hbox {
+          content {
+            for-each (btcRate.ohlc) {
+              as(ohlc) {
+                vbox {
+                  content {
+                    text {
+                      value ("#{value (ohlc.date)}")
+                      style (Detail_M_Soft)
+                    }
+                    if (ohlc.up) {
+                      single-line {
+                        image {
+                          url ("/images/up.png")
+                          shape (Square)
+                        }
+                      }
+                    } else {
+                      single-line {
+                        image {
+                          url ("/images/down.png")
+                          shape (Square)
+                        }
+                      }
+                    }
+                    text {
+                      value ("#{value (ohlc.close)}")
+                      style (Detail_M)
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+

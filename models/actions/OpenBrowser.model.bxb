@@ -1,0 +1,11 @@
+action (OpenBrowser) {
+  description (OpenBrowser action)
+  type(Constructor)
+  collect {
+    input (url) {
+      type (Url)
+      min (Optional) max (One)
+    }
+  }
+  output (Url)
+}
