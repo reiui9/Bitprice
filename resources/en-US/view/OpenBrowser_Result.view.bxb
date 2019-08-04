@@ -8,8 +8,6 @@ result-view {
   }
 
   app-launch {
-    payload-uri {
-      template ("#{value(this)}")
-    }
+     payload-uri ("#{value(this)}")
   }
 }

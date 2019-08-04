@@ -1,0 +1,3 @@
+data:
+  aligned: '[g:BTCRate,v:Exchange:USD] How much is the (bitcoin)[v:Coin:BTC] price?'
+type: intent

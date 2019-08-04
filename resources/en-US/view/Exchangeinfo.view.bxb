@@ -1,0 +1,19 @@
+input-view {
+ match {
+    Exchangeinfo (this)
+  }
+
+  message (In what currency would you like to see the price?)
+
+  render {
+    selection-of (this) {
+      where-each (item) {
+        layout-macro (Exchangeinfo-summary-macro) {
+          param (exchangeinfo) {
+            expression (item)
+          }
+        }
+      }
+    }
+  }
+}

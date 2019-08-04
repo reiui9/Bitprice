@@ -3,7 +3,7 @@ input-view {
     Coininfo (this)
   }
 
-  message (Which coin?)
+  message (어떤 코인의 정보를 보고싶습니까?)
 
   render {
     selection-of (this) {

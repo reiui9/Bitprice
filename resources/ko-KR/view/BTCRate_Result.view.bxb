@@ -1,0 +1,13 @@
+result-view {
+  match {
+    BTCRate (this)
+  }
+  
+  render {
+    layout-macro (BTCRate-details-macro) {
+      param (btcRate) {
+        expression (this)
+      }
+    }
+  }
+}

@@ -4,7 +4,7 @@ train (t-erdpz2b8bfg4a4vdoqz97ptc1) {
   last-modified (1564810225956)
 }
 train (t-ev3kwuzs5g203exku4yilxu79) {
-  utterance ("[g:BTCRate,v:Exchange:KRW] (이더리움 클래식)[v:Coin:ETC] 가격 알려줘")
-  plan (Y2BjEEmtSMwtyEnVyygpKdBzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGAGYjBsgA=)
-  last-modified (1564810493765)
+  utterance ("[g:BTCRate,v:Exchange:KRW] {[g:Coin] (이더리움 클래식)[v:Coin:ETC]} 가격 알려줘")
+  plan (Y2BnEE0pSk3M1UvKLEnOz8zTcwpxDkosSWWQRBV2Ty2ByhQzCKNKOQOJYgYxDPUQcSFMxVjF0PS7ViRnJOalpzKwMTAyMDEwM7AwsALZDHAeM5DFAMY8DCDAAsRsYFWMDCwA)
+  last-modified (1564900310999)
 }

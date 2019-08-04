@@ -3,7 +3,7 @@ input-view {
     Exchangeinfo (this)
   }
 
-  message (Which exchange?)
+  message (어떤 화페로 가격을 보고싶습니까?)
 
   render {
     selection-of (this) {

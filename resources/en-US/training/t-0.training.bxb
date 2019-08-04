@@ -1,0 +1,5 @@
+train (t-0wn5owf3k4bqm944emvmeqtci) {
+  utterance ("[g:BTCRate,v:Exchange:USD] How much is the (bitcoin)[v:Coin:BTC] price?")
+  plan (Y2BjEEmtSMwtyEnVyygpKdBzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGAGYjBsgA=)
+  last-modified (1564811418264)
+}
