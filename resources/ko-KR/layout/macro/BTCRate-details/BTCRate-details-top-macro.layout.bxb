@@ -9,22 +9,22 @@ layout-macro-def(BTCRate-details-top-macro) {
   content {
     section{
       content{
-        hbox {
-          content{
-            vbox{
-              grow (5)
-              halign (Center)
-              content{
-                text{
-                  value {
-                    template ("2019-07-28 23:40:05")
-                  }
-                  style(Detail_L_Soft)
-                }
-              }
-            }
-          }
-        }        
+        // hbox {
+        //   content{
+        //     vbox{
+        //       grow (5)
+        //       halign (Center)
+        //       content{
+        //         text{
+        //           value {
+        //             template ("2019-07-28 23:40:05")
+        //           }
+        //           style(Detail_L_Soft)
+        //         }
+        //       }
+        //     }
+        //   }
+        // }        
         hbox {
           content{
             vbox{

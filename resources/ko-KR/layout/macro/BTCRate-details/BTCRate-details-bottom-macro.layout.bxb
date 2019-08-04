@@ -113,7 +113,7 @@ layout-macro-def(BTCRate-details-bottom-macro) {
               content {
                 single-line {
                   text {
-                    value ("#{value (btcRate.price.change.absolute)}")
+                    value ("#{value (btcRate.price.change.absolute)} #{value (btcRate.coins.exchange)}")
                     style(Detail_M_Soft)
                   }
                 }

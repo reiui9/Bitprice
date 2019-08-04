@@ -3,7 +3,7 @@ dialog (Result) {
     BTCRate (this)
   }
   
-  if (this.price.change.absolute.startsWith('-1')) {
+  if ("this.price.change.percentage > 0") {
     template ("#{value (this.coins.coin)} 한 개는 현재 #{value (this.price.last)} #{value (this.coins.exchange)} 입니다. 24시간 전 보다 #{value (this.price.change.absolute)} #{value (this.coins.exchange)} 만큼 올랐네요.")
   } else {
     template ("#{value (this.coins.coin)} 한 개는 현재 #{value (this.price.last)} #{value (this.coins.exchange)} 입니다. 24시간 전 보다 #{value (this.price.change.absolute)} #{value (this.coins.exchange)} 만큼 떨어졌네요.")
