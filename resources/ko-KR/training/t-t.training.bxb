@@ -1,0 +1,5 @@
+train (t-t6wh77ufulhdp3wup5h3nzgag) {
+  utterance ("[g:BTCRate] (제트캐시)[v:Coin:ZEC] 가격을 (비트코인)[v:Exchange:BTC]으로 알려줘")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565675620771)
+}

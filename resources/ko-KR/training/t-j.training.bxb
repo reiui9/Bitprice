@@ -3,3 +3,8 @@ train (t-jqhqypiyudz28clt2plg9arrz) {
   plan (Y2BjEEmtSMwtyEnVyygpKdBzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGACYiBcgA=)
   last-modified (1564197981607)
 }
+train (t-jqu1swf887ctbs2bowp6gmxlg) {
+  utterance ("[g:BTCRate] 암호화폐 가격 리스트 (달러)[v:Exchange:USD]로 보여줘")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgAmIgXIA)
+  last-modified (1565675729667)
+}

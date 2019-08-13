@@ -4,9 +4,9 @@ dialog (Result) {
   }
   
   if ("(this.price.change.percentage) > 0") {
-    template ("One #{value (this.coins.coin)} is #{value (this.price.last)} #{value (this.coins.exchange)} now. It has risen #{value (this.price.change.absolute)} #{value (this.coins.exchange)} more than 24 hours ago.")
+    template ("One #{value (this.coins.coin)} is #{value (this.price.last)} #{value (this.coins.exchange)} now. #{value (this.price.change.absolute)} #{value (this.coins.exchange)} more than 24 hours ago.")
   } else{
-    template ("One #{value (this.coins.coin)} is #{value (this.price.last)} #{value (this.coins.exchange)} now. It has fall #{value (this.price.change.absolute)} #{value (this.coins.exchange)} less than 24 hours ago.")
+    template ("One #{value (this.coins.coin)} is #{value (this.price.last)} #{value (this.coins.exchange)} now. #{value (this.price.change.absolute)} #{value (this.coins.exchange)} lower than 24 hours ago.")
   }
 
 }

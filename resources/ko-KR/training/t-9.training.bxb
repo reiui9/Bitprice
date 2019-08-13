@@ -1,0 +1,5 @@
+train (t-99z3xeq3aztao13bdhzhb2xmm) {
+  utterance ("[g:dream.bits.BTCRate,v:dream.bits.Exchange:KRW] {[g:dream.bits.Coin] (이더리움)[v:dream.bits.Coin:ETH]} 가격 알려줘")
+  plan (Y2BnEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoynDFEDW5lqRnJGYl57KwMbAyMDEwMzAwsAKZDPAecxAFgMY8zCAAAsQs4FVMTKwAAA=)
+  last-modified (1565675641051)
+}

@@ -1,0 +1,10 @@
+train (t-xdxe086a0x6ukogr8ox9q9r26) {
+  utterance ([g:BTCRate] Show me the price list)
+  plan (Y2BkEEkpSk3M1UsuqiwoyddzCnEOSixJZQABRhABAA==)
+  last-modified (1565657349425)
+}
+train (t-xmsj9s3540do7sid1engsn4mp) {
+  utterance ("[g:BTCRate] (Eos)[v:Coin:EOS] with (bitcoin)[v:Exchange:BTC]")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565671384662)
+}

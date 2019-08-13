@@ -1,0 +1,20 @@
+train (t-fejgwc6j91f504tak5bsj42zg) {
+  utterance ("[g:BTCRate] Show me (Ethereum)[v:Coin:ETH] in (Bitcoin)[v:Exchange:BTC]")
+  plan (Y2BjEEkpSk3M1UsuqiwoyddzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGAGYjBsgA=)
+  last-modified (1565657815316)
+}
+train (t-ff8s47qieenery0s4vxqi1urp) {
+  utterance ("[g:BTCRate] Let me know (Ethereum Classic)[v:Coin:ETC] with (dollar)[v:Exchange:USD]")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565671408261)
+}
+train (t-flhxntyfzvb234gf5ojgccuza) {
+  utterance ("[g:BTCRate] Show me (Litecoin)[v:Coin:LTC] in (dollor)[v:Exchange:USD]")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565666148879)
+}
+train (t-fqag7jhpgns8gxfnig1yjpip2) {
+  utterance ("[g:BTCRate] Let me know the price list in (USD)[v:Exchange:USD]")
+  plan (Y2BjEEkpSk3M1UsuqiwoyddzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGACYiBcgA=)
+  last-modified (1565657388370)
+}

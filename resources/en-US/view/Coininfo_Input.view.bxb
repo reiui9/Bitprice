@@ -3,7 +3,7 @@ input-view {
     Coininfo (this)
   }
 
-  message (What kind of crypto currency do you want to know?)
+  message (Here is a list of crypto coin prices. Choose one of these to get its details)
 
   render {
     selection-of (this) {

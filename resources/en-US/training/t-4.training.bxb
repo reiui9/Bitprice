@@ -1,0 +1,5 @@
+train (t-4jbdksaag0s5mpcln82eiix5f) {
+  utterance ("[g:BTCRate] Show me the price list in (USD)[v:Exchange:USD]")
+  plan (Y2BjEEkpSk3M1UsuqiwoyddzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGACYiBcgA=)
+  last-modified (1565657421901)
+}

@@ -1,0 +1,10 @@
+train (t-d8rtrip33zvo8b7hwhy0mrhaf) {
+  utterance ("[g:BTCRate,v:Exchange:USD] want to know (Ethereum Classic)[v:Coin:ETC]")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565671807138)
+}
+train (t-dmxcbeivyqpqghgv6ugi397xo) {
+  utterance ("[g:BTCRate,v:Exchange:USD] How about (Ethereum)[v:Coin:ETH]?")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565672206892)
+}

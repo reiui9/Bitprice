@@ -1,5 +1,5 @@
 vocab (Coin) {
-  "BTC" {"BTC" "Bitcoin"}
+  "BTC" {"BTC" "Bitcoin" "bitcoin"}
   "DASH" {"DASH"}
   "ETH" {"ETH" "Ethereum"}
   "ETC" {"ETC" "Ethereum Classic"}
@@ -7,6 +7,6 @@ vocab (Coin) {
   "XRP" {"XRP" "Ripple"}
   "BCH" {"BHC" "Bitcoin Cash"}
   "XMR" {"XMR" "Monero"}
-  "ZEC" {"ZEC" "Zcash"}
-  "EOS" {"EOS" "EOS"}
+  "ZEC" {"ZEC" "Zcash" "zcash" "zet cash"}
+  "EOS" {"EOS" "Eos"}
 }

@@ -1,5 +1,10 @@
 train (t-m9tpomwhxxu0yenejvcd202pr) {
-  utterance ("[g:BTCRate,v:Exchange:KRW] {[g:Coin] (이더리움)[v:Coin:ETH]}")
-  plan (Y2BnEE0pSk3M1UvKLEnOz8zTcwpxDkosSWWQRBV2Ty2ByhQzCKNKOQOJYgYxDPUQcSFMxVjF0PS7ViRnJOalpzKwMTAyMDEwM7AwsALZDHAeM5DFAMY8DCDAAsRsYFWMDCwA)
-  last-modified (1564901637899)
+  utterance ("[g:BTCRate,v:Exchange:KRW] (이더리움)[v:Coin:ETH]")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565675360568)
+}
+train (t-mz1c9abw107dj68l00db8r6ew) {
+  utterance ("[g:BTCRate] (비트코인)[v:Exchange:BTC]으로 (이더리움 클래식)[v:Coin:ETH] 가격 알려줘")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565675447193)
 }

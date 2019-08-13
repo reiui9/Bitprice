@@ -1,0 +1,10 @@
+train (t-h2pam14zt2zxdtfhohg18b9ry) {
+  utterance ("[g:BTCRate,v:Exchange:USD] Show me the price of (bitcoin)[v:Coin:BTC]")
+  plan (Y2BjEEkpSk3M1UsuqiwoyddzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGAGYjBsgA=)
+  last-modified (1565657078948)
+}
+train (t-hy2mq1m674000ti1xwrj49omj) {
+  utterance ("[g:BTCRate,v:Exchange:USD] Let me know (Ethereum)[v:Coin:ETH] price")
+  plan (Y2BjEEkpSk3M1UsuqiwoyddzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGAGYjBsgA=)
+  last-modified (1565657810253)
+}

@@ -1,5 +1,5 @@
 vocab (Exchange) {
   "BTC" {"BTC" "Bitcoin"}
-  "USD" {"USD" "dollar" "American money" "United State money" "money" "box"}
+  "USD" {"USD" "dollar" "dollars" "American money" "United State money" "money" "box"}
   "KRW" {"KRW" "WON" "korean money" "korea money"}
 }

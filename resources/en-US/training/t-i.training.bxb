@@ -1,0 +1,5 @@
+train (t-ir6n2vkdw5dg3blgvfce97a86) {
+  utterance ("[g:BTCRate] Can I know (Ethereum)[v:Coin:ETH] in (BTC)[v:Exchange:BTC]?")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565672326544)
+}

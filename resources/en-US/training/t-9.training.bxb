@@ -1,0 +1,10 @@
+train (t-9joxso8eu8flk6o021qfeggwm) {
+  utterance ("[g:BTCRate,v:Exchange:USD] How much is (Ethereum)[v:Coin:ETH] now?")
+  plan (Y2BjEEkpSk3M1UsuqiwoyddzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGAGYjBsgA=)
+  last-modified (1565657818539)
+}
+train (t-9zm0tou76u6xh5juktq5f6gpn) {
+  utterance ("[g:BTCRate] Get (BTC)[v:Coin:BTC] with (WON)[v:Exchange:KRW]")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565671530404)
+}

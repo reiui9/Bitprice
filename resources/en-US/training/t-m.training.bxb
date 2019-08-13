@@ -1,0 +1,10 @@
+train (t-mewvcztdzmufykl4j6gviq0z2) {
+  utterance ("[g:BTCRate,v:Exchange:USD] Show me (EOS)[v:Coin:EOS] price")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565658060672)
+}
+train (t-mrwz5xvj664ge0kzm15if2fvr) {
+  utterance ("[g:BTCRate] How much is (zcash)[v:Coin:ZEC] in (BTC)[v:Exchange:BTC]?")
+  plan (Y2BjEEkpSk3M1UsuqiwoyddzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGAGYjBsgA=)
+  last-modified (1565657617824)
+}
