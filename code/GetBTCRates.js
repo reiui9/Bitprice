@@ -31,7 +31,7 @@ function getCoinNews (coin, count) {
     var ret = {}
     ret.title = news.title
     ret.description = news.description
-    ret.thumbnail = news.thumbnail
+    ret.thumbnail = news.thumbnail || news.originalImageUrl
     ret.url = news.url
     results.push(ret)
   }
