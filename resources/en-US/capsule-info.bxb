@@ -1,6 +1,6 @@
 capsule-info {
-  display-name (Bitcoin)
-  dispatch-name (Bitcoin)
+  display-name (Bits)
+  dispatch-name (Bits)
   developer-name (Dream)
   icon-asset (/images/logo.png)
   description ("This is showing you crypto currencies prices and news in real-time.")

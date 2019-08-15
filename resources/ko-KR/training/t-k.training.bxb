@@ -1,0 +1,10 @@
+train (t-kimpsynztlzhecc4qs7p4qjli) {
+  utterance ("[g:BTCRate,v:Exchange:KRW] (리플)[v:Coin:XRP] 가격은 어때")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565675390854)
+}
+train (t-krjka2s4kuaptiv7lrmdp2xyz) {
+  utterance ("[g:BTCRate,v:Exchange:KRW] (이더리움 클래식)[v:Coin:ETC] 가격은 뭐야?")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565864780344)
+}

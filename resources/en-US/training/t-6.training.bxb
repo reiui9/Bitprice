@@ -1,0 +1,5 @@
+train (t-6hx1i4arwyapqzz8ooqobm24n) {
+  utterance ("[g:BTCRate,v:Exchange:USD] (Ethereum Classic)[v:Coin:ETC]")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565666267985)
+}

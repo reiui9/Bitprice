@@ -1,0 +1,10 @@
+train (t-4dc5tdaiyl8sir1bgx1beek4y) {
+  utterance ("[g:BTCRate,v:Exchange:KRW] (모네로)[v:Coin:XMR]는 얼마야?")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565675480625)
+}
+train (t-4jgx1wq24i6blps1420616vub) {
+  utterance ("[g:BTCRate] (이더리움 클래식)[v:Coin:ETC] 가격 (비트코인)[v:Coin:BTC]으로는 얼마야?")
+  plan (Y+BgEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoykjQgDZHNeK5IzEvPRUBnYGRgYmBmYGFgZWBjYgjwHOZwGSjGA+AwMPEIIAMxCD1DEAAA==)
+  last-modified (1565865471569)
+}

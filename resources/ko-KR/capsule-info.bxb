@@ -1,14 +1,15 @@
 capsule-info {
-  display-name (비트코인)
-  dispatch-name (비트코인)
+  display-name (비츠)
+  dispatch-name (비츠)
   developer-name (Dream)
   icon-asset (/images/logo.png)
-  description ("사용자에게 실시간으로 현재 암호화폐 가격과 동향을 보여줍니다.")
+  description ("사용자에게 실시간으로 암호화폐 가격과 동향을 보여줍니다.")
   search-keywords {
     keyword (블록체인)
     keyword (비트코인)
     keyword (암호화폐)
     keyword (이더리움)
+    keyword (크립토)
     keyword (Bitcoin)
     keyword (Crypto currency)
     keyword (Ethurium)

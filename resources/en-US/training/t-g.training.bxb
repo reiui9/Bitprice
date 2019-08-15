@@ -1,0 +1,5 @@
+train (t-gxo5h9z6qgofscwk05ybwjs4d) {
+  utterance ("[g:BTCRate,v:Exchange:USD] How is (Ripple)[v:Coin:XRP]?")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565672077994)
+}

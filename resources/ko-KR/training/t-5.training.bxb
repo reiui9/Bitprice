@@ -1,0 +1,15 @@
+train (t-5a8dxo4xm8l12lw24azl089zr) {
+  utterance ("[g:BTCRate] (리플)[v:Coin:XRP] 가격 (비트코인)[v:Exchange:BTC]으로 환산 부탁해")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565675755860)
+}
+train (t-5h0q8h20zrjkj88uap733rxfj) {
+  utterance ("[g:BTCRate,v:Exchange:KRW] (제트캐시)[v:Coin:ZEC]란?")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565864847588)
+}
+train (t-5il3vrptch7tbteunmmqbw5sm) {
+  utterance ("[g:BTCRate,v:Exchange:KRW] (라이트코인)[v:Coin:LTC] 가격은?")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565864745887)
+}

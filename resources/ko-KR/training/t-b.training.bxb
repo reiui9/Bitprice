@@ -1,0 +1,5 @@
+train (t-bf3ycb0offlf3smexd23kopde) {
+  utterance ("[g:BTCRate,v:Exchange:KRW] (이더리움)[v:Coin:ETH] 가격 알려줘")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565675307413)
+}

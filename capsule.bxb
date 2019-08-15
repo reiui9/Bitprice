@@ -1,6 +1,6 @@
 capsule {
-  id (dream.bitcoin)
-  version (1.0.1)
+  id (dream.bits)
+  version (1.0.3)
   format (3)
   targets {
     target (bixby-mobile-en-US)

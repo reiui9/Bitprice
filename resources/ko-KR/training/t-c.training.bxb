@@ -1,5 +1,5 @@
 train (t-cbegbbsvg2xct63k4k7pjvhzp) {
-  utterance ("[g:BTCRate] {[g:Coin] (리플)[v:Coin:XRP]} 가격 {[g:Exchange] (달러)[v:Exchange:USD]}로 알려줘")
-  plan (Y+BgEE0pSk3M1UvKLEnOz8zTcwpxDkosSWWQRBV2Ty2ByhQzCKNKOQOJYgYxDPUQcSFMxVjF0PS7ViRnJOalp+IUZ2dgZGBiYGZgYWBlYAPyGOB8ZiCfEcxnYOCBYlYghqlkArLYAA==)
-  last-modified (1564903271482)
+  utterance ("[g:BTCRate] (리플)[v:Coin:XRP] 가격 (달러)[v:Exchange:USD]로 알려줘")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565866381782)
 }

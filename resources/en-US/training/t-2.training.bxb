@@ -1,0 +1,5 @@
+train (t-23jjzkb9grdv416qpuqqj7kl4) {
+  utterance ([g:BTCRate,v:Exchange:USD] Show me the coin prices)
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgAmIgXIA)
+  last-modified (1565666008061)
+}

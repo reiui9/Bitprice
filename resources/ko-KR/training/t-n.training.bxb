@@ -1,0 +1,5 @@
+train (t-ndj32mo4iue7w93du6yjg91v4) {
+  utterance ("[g:BTCRate] (이오에스)[v:Coin:EOS] 가격을 (달러)[v:Exchange:USD]로 환산해줘")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565675686698)
+}

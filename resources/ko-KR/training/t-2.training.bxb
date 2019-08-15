@@ -1,0 +1,5 @@
+train (t-2745ko5022sp9ihlxesbp5r24) {
+  utterance ("[g:BTCRate] (이오에스)[v:Coin:EOS]가 (비트코인)[v:Coin:BTC]으로는 얼마일까?")
+  plan (Y+BgEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoykjQgDZHNeK5IzEvPRUBnYGRgYmBmYGFgZWBjYgjwHOZwGSjGA+AwMPEIIAMxCD1DEAAA==)
+  last-modified (1565865497172)
+}

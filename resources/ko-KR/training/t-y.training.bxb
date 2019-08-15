@@ -1,5 +1,15 @@
+train (t-yhvqeauz2wpotuqhmyyt9uj91) {
+  utterance ("[g:BTCRate] (제트캐시)[v:Coin:ZEC]는 (비트코인)[v:Exchange:BTC]으로 얼마정도일까?")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565865789198)
+}
+train (t-ym5uimhg7m9y25yz5j5t92xmu) {
+  utterance ("[g:BTCRate] (제트캐시)[v:Coin:ZEC]를 (비트코인)[v:Exchange:BTC] 가격으로 하면?")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565865531326)
+}
 train (t-yunpjjh3hm82vgpwoct3f7lb9) {
-  utterance ("[g:BTCRate,v:Exchange:KRW] {[g:Coin] (리플)[v:Coin:XRP]} 가격 알려줘")
-  plan (Y2BnEE0pSk3M1UvKLEnOz8zTcwpxDkosSWWQRBV2Ty2ByhQzCKNKOQOJYgYxDPUQcSFMxVjF0PS7ViRnJOalpzKwMTAyMDEwM7AwsALZDHAeM5DFAMY8DCDAAsRsYFWMDCwA)
-  last-modified (1564900332291)
+  utterance ("[g:BTCRate,v:Exchange:KRW] (리플)[v:Coin:XRP] 가격 알려줘")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565866442780)
 }

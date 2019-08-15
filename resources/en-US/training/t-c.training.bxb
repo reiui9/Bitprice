@@ -1,10 +1,15 @@
-train (t-c1vhsllolicgl7eexojhw8dld) {
-  utterance ("[g:BTCRate] Get (BTC)[v:Coin:BTC] rate with (KRW)[v:Exchange:KRW]")
-  plan (Y2BjEEmtSMwtyEnVyygpKdBzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGAGYjBsgA=)
-  last-modified (1564883341181)
+train (t-cfet6a1v2otch1yuakr8c83ma) {
+  utterance ("[g:BTCRate] Get (BTC)[v:Coin:BTC] with (KRW)[v:Exchange:KRW]")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565671489327)
 }
 train (t-ckxykm9c4i44by21gahcp7ezf) {
   utterance ([g:BTCRate,v:Exchange:USD] bitcoin prices)
   plan (Y2BjEEmtSMwtyEnVyygpKdBzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGACYiBcgA=)
   last-modified (1564809953454)
+}
+train (t-czvcbyaponhwa45hsra69xvq7) {
+  utterance ("[g:BTCRate,v:Exchange:USD] Price of (Bitcoin Cash)[v:Coin:BCH]")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565666233028)
 }

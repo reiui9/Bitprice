@@ -1,0 +1,5 @@
+train (t-rd4fahnedn5qu3vasf2vesjne) {
+  utterance ("[g:BTCRate] Let me know coin prices in (BTC)[v:Exchange:BTC]")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgAmIgXIA)
+  last-modified (1565666041292)
+}

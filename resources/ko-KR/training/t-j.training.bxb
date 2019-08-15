@@ -1,5 +1,15 @@
+train (t-j4pmdlpvx1r59lhjpz4a8ap19) {
+  utterance ("[g:BTCRate] (리플)[v:Coin:XRP]을 (달러)[v:Exchange:USD]로 하면?")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565865671641)
+}
 train (t-jqhqypiyudz28clt2plg9arrz) {
   utterance ([g:BTCRate,v:Exchange:KRW] 암호화폐 가격 알려줘)
-  plan (Y2BjEEmtSMwtyEnVyygpKdBzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGACYiBcgA=)
-  last-modified (1564197981607)
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgAmIgXIA)
+  last-modified (1565866254695)
+}
+train (t-jqu1swf887ctbs2bowp6gmxlg) {
+  utterance ("[g:BTCRate] 암호화폐 가격 리스트 (달러)[v:Exchange:USD]로 보여줘")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgAmIgXIA)
+  last-modified (1565675729667)
 }

@@ -1,5 +1,5 @@
-train (t-tkm0hhb23971ftipn8nx4pgjt) {
-  utterance ("[g:BTCRate] Show me the (etherium)[v:Coin:ETH] price in (BTC)[v:Exchange:BTC]")
-  plan (Y2BjEEmtSMwtyEnVyygpKdBzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGAGYjBsgA=)
-  last-modified (1564810006053)
+train (t-tluo0kpy3szy4syz4u7k3j2dc) {
+  utterance ("[g:BTCRate,v:Exchange:USD] Price of (Ripple)[v:Coin:XRP]")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565666105954)
 }

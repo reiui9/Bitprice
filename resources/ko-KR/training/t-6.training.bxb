@@ -1,0 +1,10 @@
+train (t-64y52l6m2zfz3ubu1iltwdilf) {
+  utterance ("[g:BTCRate,v:Exchange:KRW] (비트코인)[v:Coin:BTC] 뉴스 보여줘")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565675776377)
+}
+train (t-67byb39079frrpua8mwftip01) {
+  utterance ("[g:BTCRate] (대시)[v:Coin:DASH]를 (달러)[v:Exchange:USD]로는 얼마정도일까?")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565865709343)
+}

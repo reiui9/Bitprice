@@ -3,3 +3,13 @@ train (t-eb787j3t612z7vqsm3nbmz2xh) {
   plan (Y2BjEEmtSMwtyEnVyygpKdBzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGAGYhBqhgA)
   last-modified (1564196731726)
 }
+train (t-ehjn0xpwpxyqd5pzq6c1ava9s) {
+  utterance ("[g:BTCRate,v:Exchange:USD] GET (Ripple)[v:Coin:XRP]")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565671648016)
+}
+train (t-er1wedjfz2o9xevwcx33rx57o) {
+  utterance ("[g:BTCRate,v:Exchange:USD] Show me price of (EOS)[v:Coin:EOS]")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565658081905)
+}

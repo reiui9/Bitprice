@@ -1,0 +1,5 @@
+train (t-j41q6q9od68bne9euvyawy2h5) {
+  utterance ("[g:BTCRate,v:Exchange:USD] I want to know (bitcoin)[v:Coin:BTC] price")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565671772022)
+}

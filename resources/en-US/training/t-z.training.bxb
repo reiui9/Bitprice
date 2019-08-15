@@ -3,3 +3,8 @@ train (t-zlj0tm7u436ga9yog5ec255m8) {
   plan (Y2BjEEmtSMwtyEnVyygpKdBzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGAGYjBsgA=)
   last-modified (1564809901619)
 }
+train (t-zn6n34sfd7fplz5q7y9tke7tm) {
+  utterance ("[g:BTCRate,v:Exchange:USD] Let me know about price of (Monero)[v:Coin:XMR]")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565672353969)
+}

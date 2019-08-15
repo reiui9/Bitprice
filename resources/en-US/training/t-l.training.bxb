@@ -1,5 +1,15 @@
+train (t-l5ondl2cijph66odnfrik8b3f) {
+  utterance ("[g:dream.bits.BTCRate,v:dream.bits.Exchange:USD] Can I know (Monero)[v:dream.bits.Coin:XMR] price?")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565672194471)
+}
 train (t-lp4rzblmtu87ah3bngl6eotlj) {
   utterance ("[g:BTCRate,v:Exchange:USD] Show me the (bitcoin)[v:Coin:BTC] price")
   plan (Y2BjEEmtSMwtyEnVyygpKdBzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGAGYjBsgA=)
   last-modified (1564199093483)
+}
+train (t-lrfs2rs8wmif207rgx4tt0083) {
+  utterance ("[g:BTCRate,v:Exchange:USD] How much is (Ripple)[v:Coin:XRP]?")
+  plan (Y2BjEEkpSk3M1UsuqiwoyddzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGAGYjBsgA=)
+  last-modified (1565657485755)
 }

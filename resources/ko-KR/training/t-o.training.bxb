@@ -1,0 +1,5 @@
+train (t-oejr4ohqft6pqd88rup91cifr) {
+  utterance ("[g:BTCRate] (비트코인)[v:Exchange:BTC] 가격으로 (대시)[v:Coin:DASH] 알려줘")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565865557852)
+}

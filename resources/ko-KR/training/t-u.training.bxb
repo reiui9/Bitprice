@@ -1,0 +1,5 @@
+train (t-uoyjpsbjaig203xs47hi0cle6) {
+  utterance ("[g:BTCRate,v:Exchange:KRW] (제트캐시)[v:Coin:ZEC]는?")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565865834092)
+}

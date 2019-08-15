@@ -1,8 +1,0 @@
-dialog (Selection) {
-
-  match: GetCoin {
-  }
-  
-  template ("Which coin do you want to know?")
-
-}

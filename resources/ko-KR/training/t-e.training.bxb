@@ -1,10 +1,10 @@
 train (t-erdpz2b8bfg4a4vdoqz97ptc1) {
   utterance ([g:BTCRate,v:Exchange:KRW] 암호화폐 가격)
-  plan (Y2BjEEmtSMwtyEnVyygpKdBzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGACYiBcgA=)
-  last-modified (1564810225956)
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgAmIgXIA)
+  last-modified (1565866254382)
 }
 train (t-ev3kwuzs5g203exku4yilxu79) {
-  utterance ("[g:BTCRate,v:Exchange:KRW] {[g:Coin] (이더리움 클래식)[v:Coin:ETC]} 가격 알려줘")
-  plan (Y2BnEE0pSk3M1UvKLEnOz8zTcwpxDkosSWWQRBV2Ty2ByhQzCKNKOQOJYgYxDPUQcSFMxVjF0PS7ViRnJOalpzKwMTAyMDEwM7AwsALZDHAeM5DFAMY8DCDAAsRsYFWMDCwA)
-  last-modified (1564900310999)
+  utterance ("[g:BTCRate,v:Exchange:KRW] (이더리움 클래식)[v:Coin:ETC] 가격 알려줘")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565866451641)
 }

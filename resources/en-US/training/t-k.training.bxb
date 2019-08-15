@@ -1,0 +1,10 @@
+train (t-kiqtrg3i6xmgu32by3anl28ei) {
+  utterance ("[g:BTCRate,v:Exchange:USD] How much is (bitcoin cash)[v:Coin:BCH] now?")
+  plan (Y2BjEEkpSk3M1UsuqiwoyddzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGAGYjBsgA=)
+  last-modified (1565657618489)
+}
+train (t-kqi800h45ine1oxedj204t8x5) {
+  utterance ([g:BTCRate,v:Exchange:USD] Get price of crypto currency)
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgAmIgXIA)
+  last-modified (1565671676383)
+}

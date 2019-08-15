@@ -1,0 +1,15 @@
+train (t-n88dlcd412jyoo8w67imtgzsz) {
+  utterance ([g:BTCRate,v:Exchange:USD] show me coins price)
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgAmIgXIA)
+  last-modified (1565671878405)
+}
+train (t-nbajlkxpa25pvdsb0baodb3o0) {
+  utterance ("[g:BTCRate,v:Exchange:USD] GET (Ethereum)[v:Coin:ETH]")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565671567040)
+}
+train (t-nng5yv1d60scvy6e344cqvm6k) {
+  utterance ("[g:BTCRate] Can I know (Bitcoin Cash)[v:Coin:BCH] price in (bitcoin)[v:Coin:BTC]?")
+  plan (Y+BgEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoykjQgDZHNeK5IzEvPRUBnYGRgYmBmYGFgZWBjYgjwHOZwGSjGA+AwMPEIIAMxCD1DEAAA==)
+  last-modified (1565671985519)
+}

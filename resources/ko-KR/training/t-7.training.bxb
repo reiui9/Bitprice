@@ -1,0 +1,10 @@
+train (t-7ax695zl2vc4wq0q580ayhr0o) {
+  utterance ("[g:BTCRate,v:Exchange:KRW] (이더리움 클래식)[v:Coin:ETC]")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565675821302)
+}
+train (t-7ezrztabztt0r93633dir27gw) {
+  utterance ("[g:BTCRate] (비트코인)[v:Exchange:BTC]으로 (라이트코인)[v:Coin:LTC] 환산하면?")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565865641984)
+}
