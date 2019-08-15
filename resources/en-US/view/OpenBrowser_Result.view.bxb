@@ -3,9 +3,7 @@ result-view {
     min(Required) max (One)
   }
 
-  render {
-    nothing
-  }
+  message()
 
   app-launch {
      payload-uri ("#{value(this)}")
