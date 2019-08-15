@@ -2,7 +2,7 @@ hints {
   uncategorized {
     utterance ("비트코인 가격 알려줘")
     utterance ("리플 가격 달러로 보여줘")
-    utterance ("암호화폐 가격 알려줘")
+    utterance ("리플이 비트코인으로 얼마일까?")
     utterance ("이더리움 가격 알려줘")
     utterance ("대시 가격 알려줘")
     utterance ("이더리움클래식 가격 알려줘")

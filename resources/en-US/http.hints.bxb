@@ -1,7 +1,15 @@
 hints {
   uncategorized {
     utterance ("Show me the bitcoin price")
-    utterance ("Show me the etherium price in BTC")
+    utterance ("Show me the ethereum price in BTC")
     utterance ("Show me the crypto coin prices")
+    utterance ("How much is the bitcoin price?")
+    utterance ("How much is the ethereum price?")
+    utterance ("Crypto currency price")
+    utterance ("How much is zcash in bitcoin?")
+    utterance ("Show me EOD price")
+    utterance ("Price of Ripple")
+    utterance ("Price of Bitcoin")
+    utterance ("Price of Monero")
   }
 }
