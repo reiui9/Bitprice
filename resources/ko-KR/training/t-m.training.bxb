@@ -3,8 +3,13 @@ train (t-m9tpomwhxxu0yenejvcd202pr) {
   plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
   last-modified (1565675360568)
 }
-train (t-mz1c9abw107dj68l00db8r6ew) {
-  utterance ("[g:BTCRate] (비트코인)[v:Exchange:BTC]으로 (이더리움 클래식)[v:Coin:ETH] 가격 알려줘")
+train (t-mhpqhv3fwzx61pr42jox4ckka) {
+  utterance ("[g:BTCRate,v:Exchange:KRW] (리플)[v:Coin:XRP] 가격은 어떤것같아?")
   plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
-  last-modified (1565675447193)
+  last-modified (1565865964856)
+}
+train (t-mz1c9abw107dj68l00db8r6ew) {
+  utterance ("[g:BTCRate] (비트코인)[v:Exchange:BTC]으로 (이더리움 클래식)[v:Coin:ETC] 가격 알려줘")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565866302951)
 }

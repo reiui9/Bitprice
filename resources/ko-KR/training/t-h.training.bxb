@@ -1,0 +1,5 @@
+train (t-hm3j88hp5zttvxhdajkxzx6bm) {
+  utterance ("[g:BTCRate,v:Exchange:KRW] (이오에스)[v:Coin:EOS]는 뭐야?")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565865984039)
+}

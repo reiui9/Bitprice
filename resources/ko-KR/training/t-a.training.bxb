@@ -1,5 +1,15 @@
+train (t-aeq9e5afl8jg32yjltc2br1k8) {
+  utterance ("[g:BTCRate,v:Exchange:KRW] (리플)[v:Coin:XRP] 소식 알려줘")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565864931318)
+}
 train (t-ak2xnx2lmciqb036qkqz0xjvn) {
-  utterance ("[g:BTCRate,r:GetBTCRates,v:Exchange:KRW] {[g:Coin] (비트코인)[v:Coin:BTC]} 가격 알려줘")
-  plan (Y2BnEE0pSk3M1UvKLEnOz8zTcwpxDkosSWWQRBV2Ty2ByhQzCKNKOQOJYgYxDPUQcSFMxVjF0PS7ViRnJOalpzKwMTAyMDEwM7AwsALZDHAeM5DFAMY8DCDACsQgtSB1QBIA)
-  last-modified (1564900907456)
+  utterance ("[g:BTCRate,v:Exchange:KRW] (비트코인)[v:Coin:BTC] 가격 알려줘")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565866330296)
+}
+train (t-ao2eph62zqf56m4p9grm2qoe0) {
+  utterance ("[g:BTCRate] (달러)[v:Exchange:USD]로 (이더리움 클래식)[v:Coin:ETC] 알려줘")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565864964320)
 }

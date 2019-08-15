@@ -1,5 +1,10 @@
+train (t-965bmkyh79g6jz4ai60ry2i2s) {
+  utterance ([g:BTCRate,v:Exchange:KRW,v:Coin:BTC] 가장 잘나가는 비트코인이 뭐야?)
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565864910141)
+}
 train (t-99z3xeq3aztao13bdhzhb2xmm) {
-  utterance ("[g:dream.bits.BTCRate,v:dream.bits.Exchange:KRW] {[g:dream.bits.Coin] (이더리움)[v:dream.bits.Coin:ETH]} 가격 알려줘")
-  plan (Y2BnEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoynDFEDW5lqRnJGYl57KwMbAyMDEwMzAwsAKZDPAecxAFgMY8zCAAAsQs4FVMTKwAAA=)
-  last-modified (1565675641051)
+  utterance ("[g:BTCRate,v:Exchange:KRW] (이더리움)[v:Coin:ETH] 가격 알려줘")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565866421515)
 }

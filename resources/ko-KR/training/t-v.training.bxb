@@ -1,0 +1,5 @@
+train (t-vdv2fti3j88a8o1oe0ga6pmyt) {
+  utterance ("[g:BTCRate] (비트코인 캐시)[v:Coin:BCH]를 (비트코인)[v:Exchange:BTC]으로 알려줘")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565865273991)
+}

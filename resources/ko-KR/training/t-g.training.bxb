@@ -1,0 +1,5 @@
+train (t-gtxobpeegcefaunqhkct7r4kw) {
+  utterance ("[g:BTCRate,v:Exchange:KRW] (이오에스)[v:Coin:EOS] 가격 알려줘")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565866491649)
+}

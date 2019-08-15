@@ -1,0 +1,5 @@
+train (t-d54hwotor9uii0gepf3fmx5mb) {
+  utterance ("[g:BTCRate] (리플)[v:Coin:XRP] 가격 (비트코인)[v:Exchange:BTC]으로 환산해줘")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565865410824)
+}

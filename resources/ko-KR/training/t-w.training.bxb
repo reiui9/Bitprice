@@ -1,0 +1,5 @@
+train (t-w40np0u4b8orilwo6kpgr854h) {
+  utterance ("[g:BTCRate,v:Exchange:KRW] (이더리움 클래식)[v:Coin:ETC]")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565866001634)
+}

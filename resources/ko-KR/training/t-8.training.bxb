@@ -1,0 +1,10 @@
+train (t-8eu0kheaxc2wzs3q2e4aclhho) {
+  utterance ("[g:BTCRate] (비트코인)[v:Exchange:BTC]으로 (모네로)[v:Coin:XMR] 가격 알려줘")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565865584406)
+}
+train (t-8oidgoi9lug2lphzch93174qh) {
+  utterance ("[g:BTCRate,v:Exchange:KRW] (라이트코인)[v:Coin:LTC] 가격줘")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565865814177)
+}

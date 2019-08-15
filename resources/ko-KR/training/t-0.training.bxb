@@ -1,0 +1,5 @@
+train (t-0tli880dzbg5j091f5y2co01p) {
+  utterance ("[g:BTCRate] (이더리움)[v:Coin:ETH]을 (비트코인)[v:Exchange:BTC]으로")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1565864987295)
+}

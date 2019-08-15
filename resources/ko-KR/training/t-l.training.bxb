@@ -1,3 +1,8 @@
+train (t-l8oslkgd28ycm1wjnx8nezflj) {
+  utterance ("[g:BTCRate] (라이트코인)[v:Coin:LTC] 가격 (비트코인)[v:Coin:BTC]으로 변환해줘")
+  plan (Y+BgEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoykjQgDZHNeK5IzEvPRUBnYGRgYmBmYGFgZWBjYgjwHOZwGSjGA+AwMPEIIAMxCD1DEAAA==)
+  last-modified (1565865435430)
+}
 train (t-ldzdzbzi0d0rxz9kkzrmuo2lt) {
   utterance ([g:BTCRate,v:Exchange:KRW] 암호화폐 가격리스트 보여줘)
   plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgAmIgXIA)
