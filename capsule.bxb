@@ -1,6 +1,6 @@
 capsule {
   id (dream.bitrend)
-  version (1.0.7)
+  version (1.0.9)
   format (3)
   targets {
     target (bixby-mobile-ko-KR)
