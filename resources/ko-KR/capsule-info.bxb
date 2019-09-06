@@ -1,6 +1,13 @@
 capsule-info {
   display-name (비트랜드)
   dispatch-name (비트랜드)
+  dispatch-aliases {
+    alias (비트렌드)
+    alias (비트 랜드)
+    alias (비트렌디)
+    alias (비트 band)
+    alias (비프랜드)
+  }
   developer-name (Dream)
   icon-asset (/images/logo.png)
   description ("사용자에게 실시간으로 암호화폐 가격과 동향을 보여줍니다.")
