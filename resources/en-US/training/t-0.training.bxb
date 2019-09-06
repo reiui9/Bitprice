@@ -3,11 +3,6 @@ train (t-05tm36brltzfko7lgmtr9lnnv) {
   plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
   last-modified (1565672292008)
 }
-train (t-0e2mj0uyf9m1k047r847fsevg) {
-  utterance ("[g:dream.bits.BTCRate,v:dream.bits.Exchange:USD] How can I know (Bitcoin Cash)[v:dream.bits.Coin:BCH] price?")
-  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
-  last-modified (1565672249752)
-}
 train (t-0wn5owf3k4bqm944emvmeqtci) {
   utterance ("[g:BTCRate,v:Exchange:USD] How much is the (bitcoin)[v:Coin:BTC] price?")
   plan (Y2BjEEmtSMwtyEnVyygpKdBzCnEOSixJZZBAEXVPLYFKFDMIocg452fmFTOIoquGCAtiKEVT6VqRnJGYl57KwMrAyMDEwMzAAmQxQNnMQJoBjEGAGYjBsgA=)

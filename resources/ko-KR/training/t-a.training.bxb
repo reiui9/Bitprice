@@ -13,3 +13,8 @@ train (t-ao2eph62zqf56m4p9grm2qoe0) {
   plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
   last-modified (1565864964320)
 }
+train (t-axeiyqzhz66jjv0vcq3cjajkc) {
+  utterance ("[g:BTCRate,v:Exchange:KRW] (비트코인캐시)[v:Coin:BCH] 가격 좀 알려주라")
+  plan (Y2BjEE0pSk3M1UvKLClKzUvRcwpxDkosSWWQRBV2Ty2ByhQzCKNKOedn5hUziGGoh4gLYSpGV+takZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1567313045992)
+}

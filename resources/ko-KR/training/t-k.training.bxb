@@ -8,3 +8,8 @@ train (t-krjka2s4kuaptiv7lrmdp2xyz) {
   plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
   last-modified (1565864780344)
 }
+train (t-kscnoxxmk8bnikqlsymjlc8ua) {
+  utterance ("[g:BTCRate,v:Exchange:KRW] (이오스)[v:Coin:EOS] 가격 확인해줘")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1566401059144)
+}

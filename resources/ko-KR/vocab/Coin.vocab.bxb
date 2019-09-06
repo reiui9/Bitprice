@@ -6,7 +6,7 @@ vocab (Coin) {
   "LTC" {"LTC" "라이트코인"}
   "XRP" {"XRP" "리플"}
   "BCH" {"BCH" "비트코인 캐시" "비코캐"}
-  "XMR" {"XMR" "모네로" "모레로" "모로로"}
-  "ZEC" {"ZEC" "제트캐시" "제트 캐시" "setting 캐시"}
-  "EOS" {"EOS" "이오에스" "US" "BOS"}
+  "XMR" {"XMR" "모네로" "모레로" "모로로" "모레 노"}
+  "ZEC" {"ZEC" "제트캐시" "제트 캐시" "setting 캐시" "Z 캐시"}
+  "EOS" {"EOS" "이오에스" "US" "BOS" "이오스" "이 OS가" "이 OS"}
 }

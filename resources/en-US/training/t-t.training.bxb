@@ -1,3 +1,8 @@
+train (t-te2lkjw48ngi0258fmvpvpw0v) {
+  utterance ("[g:BTCRate,v:Exchange:USD] Can I know (Monero)[v:Coin:XMR] price?")
+  plan (Y2BjEE0pSk3M1UvKLClKzUvRcwpxDkosSWWQRBV2Ty2ByhQzCKNKOedn5hUziGGoh4gLYSpGV+takZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1566557169951)
+}
 train (t-tluo0kpy3szy4syz4u7k3j2dc) {
   utterance ("[g:BTCRate,v:Exchange:USD] Price of (Ripple)[v:Coin:XRP]")
   plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)

@@ -1,3 +1,8 @@
+train (t-eep69l5jwa1n2f7hsj7p235kq) {
+  utterance ("[g:BTCRate] (이오에스)[v:Coin:EOS]가 (비트코인)[v:Exchange:BTC]으로는 얼마일까?")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1566401148046)
+}
 train (t-erdpz2b8bfg4a4vdoqz97ptc1) {
   utterance ([g:BTCRate,v:Exchange:KRW] 암호화폐 가격)
   plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgAmIgXIA)

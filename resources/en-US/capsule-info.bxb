@@ -1,6 +1,6 @@
 capsule-info {
-  display-name (Bits)
-  dispatch-name (Bits)
+  display-name (Bitrend)
+  dispatch-name (Bitrend)
   developer-name (Dream)
   icon-asset (/images/logo.png)
   description ("This is showing you crypto currencies prices and news in real-time.")

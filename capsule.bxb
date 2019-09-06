@@ -1,9 +1,8 @@
 capsule {
-  id (dream.bits)
-  version (1.0.4)
+  id (dream.bitrend)
+  version (1.0.7)
   format (3)
   targets {
-    target (bixby-mobile-en-US)
     target (bixby-mobile-ko-KR)
   }
   runtime-flags {

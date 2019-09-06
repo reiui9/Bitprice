@@ -1,6 +1,6 @@
 capsule-info {
-  display-name (비츠)
-  dispatch-name (비츠)
+  display-name (비트랜드)
+  dispatch-name (비트랜드)
   developer-name (Dream)
   icon-asset (/images/logo.png)
   description ("사용자에게 실시간으로 암호화폐 가격과 동향을 보여줍니다.")

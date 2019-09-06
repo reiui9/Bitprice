@@ -1,3 +1,8 @@
+train (t-62yovs4e7aefzvi6zqpbzhxsi) {
+  utterance ("[g:BTCRate,v:Exchange:KRW] (이오스)[v:Coin:EOS] 가격 확인할래")
+  plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1566401082272)
+}
 train (t-64y52l6m2zfz3ubu1iltwdilf) {
   utterance ("[g:BTCRate,v:Exchange:KRW] (비트코인)[v:Coin:BTC] 뉴스 보여줘")
   plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)

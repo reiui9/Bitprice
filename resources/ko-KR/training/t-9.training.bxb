@@ -3,6 +3,11 @@ train (t-965bmkyh79g6jz4ai60ry2i2s) {
   plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
   last-modified (1565864910141)
 }
+train (t-96j9vvog4eo3m66wts2d5rauf) {
+  utterance ("[g:BTCRate] (이더리움 클래식)[v:Coin:ETC] 가격 (비트코인)[v:Exchange:BTC]으로는 얼마야")
+  plan (Y2BjEE0pSk3M1UvKLClKzUvRcwpxDkosSWWQRBV2Ty2ByhQzCKNKOedn5hUziGGoh4gLYSpGV+takZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1567313359610)
+}
 train (t-99z3xeq3aztao13bdhzhb2xmm) {
   utterance ("[g:BTCRate,v:Exchange:KRW] (이더리움)[v:Coin:ETH] 가격 알려줘")
   plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)

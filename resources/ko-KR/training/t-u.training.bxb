@@ -1,3 +1,8 @@
+train (t-u9dxu3qi116avay87vhibr09n) {
+  utterance ("[g:BTCRate] (달러)[v:Exchange:USD]로 (이더리움 클래식)[v:Coin:ETC] 알려줘")
+  plan (Y2BjEE0pSk3M1UvKLClKzUvRcwpxDkosSWWQRBV2Ty2ByhQzCKNKOedn5hUziGGoh4gLYSpGV+takZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)
+  last-modified (1567313505673)
+}
 train (t-uoyjpsbjaig203xs47hi0cle6) {
   utterance ("[g:BTCRate,v:Exchange:KRW] (제트캐시)[v:Coin:ZEC]는?")
   plan (Y2BjEEopSk3M1UvKLCnWcwpxDkosSWUQQxJzTy2BChczCCCJO+dn5hUzCKOqhAjyoylDUeVakZyRmJeeysDKwMjAxMDMwAJkMUDZzECaAYxBgBmIwbIA)

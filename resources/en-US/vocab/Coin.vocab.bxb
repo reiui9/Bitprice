@@ -7,6 +7,6 @@ vocab (Coin) {
   "XRP" {"XRP" "Ripple"}
   "BCH" {"BHC" "Bitcoin Cash"}
   "XMR" {"XMR" "Monero"}
-  "ZEC" {"ZEC" "Zcash" "zcash" "zet cash"}
+  "ZEC" {"ZEC" "Zcash" "zcash" "zet cash" "z cash"}
   "EOS" {"EOS" "Eos"}
 }
