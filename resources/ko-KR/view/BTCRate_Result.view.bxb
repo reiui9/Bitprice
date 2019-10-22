@@ -4,9 +4,11 @@ result-view {
   }
   
   render {
-    layout-macro (BTCRate-details-macro) {
-      param (btcRate) {
-        expression (this)
+    if (size(this) == 1) {
+      layout-macro (BTCRate-details-macro) {
+        param (btcRate) {
+          expression (this)
+        }
       }
     }
   }

@@ -9,10 +9,13 @@ capsule {
     support-halt-effect-in-computed-inputs
     modern-prompt-rejection
     concepts-inherit-super-type-features
+    use-input-views-for-selection-list-detail
+    no-filtering-with-validation
+    modern-default-view-behavior
   }
   capsule-imports {
     import (viv.common) { 
-      as (common) version (3.32.13)
+      as (common) version (3.32.18)
     }
   }
   store-sections {
