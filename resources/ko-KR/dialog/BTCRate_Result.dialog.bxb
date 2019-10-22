@@ -2,11 +2,29 @@ dialog (Result) {
   match {
     BTCRate (this)
   }
-  
-  if ("this.price.change.percentage > 0") {
-    template ("#{value (this.coins.coin)} 한 개는 현재 #{value (this.price.last)} #{value (this.coins.exchange)} 입니다. 24시간 전 보다 #{value (this.price.change.absolute)} #{value (this.coins.exchange)} 만큼 올랐네요.")
-  } else {
-    template ("#{value (this.coins.coin)} 한 개는 현재 #{value (this.price.last)} #{value (this.coins.exchange)} 입니다. 24시간 전 보다 #{value (this.price.change.absolute)} #{value (this.coins.exchange)} 만큼 떨어졌네요.")
+
+  switch ("this.coins.exchange") {
+  case (KRW) {
+    if ("this.price.change.percentage > 0") {
+      template ("#{value (this.coins.coin)} 한 개는 현재 #{value (this.price.last)}원 입니다. 24시간 전 보다 #{value (this.price.change.percentage)} % 만큼 올랐네요.")
+    } else {
+      template ("#{value (this.coins.coin)} 한 개는 현재 #{value (this.price.last)}원 입니다. 24시간 전 보다 #{value (this.price.change.percentage)} % 만큼 떨어졌네요.")
+    }
+  }
+  case (USD) {
+    if ("this.price.change.percentage > 0") {
+      template ("#{value (this.coins.coin)} 한 개는 현재 #{value (this.price.last)}달러 입니다. 24시간 전 보다 #{value (this.price.change.percentage)} % 만큼 올랐네요.")
+    } else {
+      template ("#{value (this.coins.coin)} 한 개는 현재 #{value (this.price.last)}달러 입니다. 24시간 전 보다 #{value (this.price.change.percentage)} % 만큼 떨어졌네요.")
+    }
+  }
+  default {
+    if ("this.price.change.percentage > 0") {
+        template ("#{value (this.coins.coin)} 한 개는 현재 #{value (this.price.last)} #{value (this.coins.exchange)} 입니다. 24시간 전 보다 #{value (this.price.change.percentage)} % 만큼 올랐네요.")
+      } else {
+        template ("#{value (this.coins.coin)} 한 개는 현재 #{value (this.price.last)} #{value (this.coins.exchange)} 입니다. 24시간 전 보다 #{value (this.price.change.percentage)} % 만큼 떨어졌네요.")
+      }
+    }
   }
 
 }

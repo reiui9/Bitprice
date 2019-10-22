@@ -173,6 +173,8 @@ module.exports.function = function getBTCRates (coins) {
       result.price[key] = decimalToKRW(result.price[key])
     }
   }
+  result.price.change.percentage = Math.round(result.price.change.percentage*1000)/10
+  
   console.log(result.price.change.absolute)
   console.log(typeof(result.price.change.absolute))
   result.price.change.absolute = scientificToDecimal(result.price.change.absolute.toString())
