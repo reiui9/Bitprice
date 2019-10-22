@@ -1,15 +1,37 @@
 hints {
   uncategorized {
-    utterance ("비트코인 가격 알려줘")
-    utterance ("리플 가격 달러로 보여줘")
-    utterance ("리플이 비트코인으로 얼마일까?")
-    utterance ("이더리움 가격 알려줘")
-    utterance ("대시 가격 알려줘")
-    utterance ("이더리움클래식 가격 알려줘")
-    utterance ("라이트코인 가격 알려줘")
-    utterance ("비트코인캐시 가격 알려줘")
-    utterance ("모레노 가격 알려줘")
-    utterance ("제트캐시 가격 알려줘")
-    utterance ("이오스 가격 알려줘")
+    hint ("비트랜드에서 비트코인 가격 알려줘") {
+      preferred-hint ("비트코인 가격 알려줘")
+    }
+    hint ("비트랜드에서 리플 가격 달러로 보여줘") {
+      preferred-hint ("리플 가격 달러로 보여줘")
+    }
+    hint ("비트랜드에서 리플이 비트코인으로 얼마일까?") {
+      preferred-hint ("리플이 비트코인으로 얼마일까?")
+    }
+    hint ("비트랜드에서 이더리움 가격 알려줘") {
+      preferred-hint ("이더리움 가격 알려줘")
+    }
+    hint ("비트랜드에서 대시 가격 알려줘") {
+      preferred-hint ("대시 가격 알려줘")
+    }
+    hint ("비트랜드에서 이더리움클래식 가격 알려줘") {
+      preferred-hint ("이더리움클래식 가격 알려줘")
+    }
+    hint ("비트랜드에서 라이트코인 가격 알려줘") {
+      preferred-hint ("라이트코인 가격 알려줘")
+    }
+    hint ("비트랜드에서 비트코인캐시 가격 알려줘") {
+      preferred-hint ("비트코인캐시 가격 알려줘")
+    }
+    hint ("비트랜드에서 모레노 가격 알려줘") {
+      preferred-hint ("모레노 가격 알려줘")
+    }
+    hint ("비트랜드에서 제트캐시 가격 알려줘") {
+      preferred-hint ("제트캐시 가격 알려줘")
+    }
+    hint ("비트랜드에서 이오스 가격 알려줘") {
+      preferred-hint ("이오스 가격 알려줘")
+    }
   }
 }
